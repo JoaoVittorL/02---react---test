@@ -85,7 +85,7 @@ export function SignIn() {
                 <p className="text-red-500">{errors.password.message}</p>
               )}
             </div>
-            <Button className="w-full" type="submit">
+            <Button variant={'default'} className="w-full" type="submit">
               Entrar
             </Button>
           </form>

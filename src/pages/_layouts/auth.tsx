@@ -12,7 +12,7 @@ export function AuthLayout() {
         <img
           src={BackgroundImage}
           alt=""
-          className="h-full w-full object-cover brightness-50 dark:brightness-[0.2] dark:grayscale"
+          className="h-full w-full object-cover brightness-50"
         />
       </div>
     </div>
