@@ -31,5 +31,5 @@
   },
   "include": [
     "src"
-  ]
+, "src/pages/app/index.tsx"  ]
 }

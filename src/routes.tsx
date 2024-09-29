@@ -8,7 +8,7 @@ import { Historic } from './pages/app/historic'
 import { Budget } from './pages/app/budget'
 import { Physical } from './pages/app/physical'
 import { Accounts } from './pages/app/manage/accounts'
-import { Constructions } from './pages/app/manage/construction'
+import { Constructions } from './pages/app/manage/constructions'
 import { Materials } from './pages/app/manage/materials'
 
 export const router = createBrowserRouter([
@@ -30,6 +30,10 @@ export const router = createBrowserRouter([
       },
       {
         path: '/physical',
+        element: <Physical />,
+      },
+      {
+        path: '/transfer',
         element: <Physical />,
       },
       {
