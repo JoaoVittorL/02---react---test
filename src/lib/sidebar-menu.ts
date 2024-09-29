@@ -13,7 +13,7 @@ type MenuItem = {
   id: string;
   label: string;
   icon: any;
-  subMenu: { id: string; label: string; icon: any; link: string }[];
+  subMenu?: { id: string; label: string; icon: any; link: string }[];
   link: string;
 };
 type MenuObject = {
@@ -26,35 +26,30 @@ const objMenu: MenuObject = {
       label: 'Movimentação',
       icon: Activity,
       link: '/',
-      subMenu: [],
     },
     {
       id: '2',
       label: 'Jogo entre projetos',
       icon: Swords,
       link: '/transfer',
-      subMenu: [],
-    },
-    {
-      id: '4',
-      label: 'Orçamento',
-      icon: HandCoins,
-      link: '/budget',
-      subMenu: [],
     },
     {
       id: '3',
+      label: 'Orçamento',
+      icon: HandCoins,
+      link: '/budget',
+    },
+    {
+      id: '4',
       label: 'Criar ID',
       icon: Package,
       link: '/physical',
-      subMenu: [],
     },
     {
       id: '5',
       label: 'Histórico',
       icon: History,
       link: '/historic',
-      subMenu: [],
     },
     {
       id: '6',
@@ -68,22 +63,68 @@ const objMenu: MenuObject = {
       ],
     },
   ],
-  Storkeeper: [
+  Almoxarifado: [
     {
-      id: 'movimentation',
+      id: '1',
       label: 'Movimentação',
       icon: Activity,
-      link: '/movimentation',
-      subMenu: [],
+      link: '/',
+    },
+    {
+      id: '2',
+      label: 'Jogo entre projetos',
+      icon: Swords,
+      link: '/transfer',
+    },
+    {
+      id: '3',
+      label: 'Orçamento',
+      icon: HandCoins,
+      link: '/budget',
+    },
+    {
+      id: '4',
+      label: 'Criar ID',
+      icon: Package,
+      link: '/physical',
+    },
+    {
+      id: '5',
+      label: 'Histórico',
+      icon: History,
+      link: '/historic',
     },
   ],
-  Estimator: [
+  Orcamentista: [
     {
-      id: 'movimentation',
+      id: '1',
       label: 'Movimentação',
       icon: Activity,
-      link: '/movimentation',
-      subMenu: [],
+      link: '/',
+    },
+    {
+      id: '2',
+      label: 'Jogo entre projetos',
+      icon: Swords,
+      link: '/transfer',
+    },
+    {
+      id: '3',
+      label: 'Orçamento',
+      icon: HandCoins,
+      link: '/budget',
+    },
+    {
+      id: '4',
+      label: 'Criar ID',
+      icon: Package,
+      link: '/physical',
+    },
+    {
+      id: '5',
+      label: 'Histórico',
+      icon: History,
+      link: '/historic',
     },
   ],
 } as const;

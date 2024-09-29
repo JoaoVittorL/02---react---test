@@ -9,7 +9,7 @@ import { z } from 'zod'
 import { Button } from '@/components/ui/button'
 import { Input } from '@/components/ui/input'
 
-import LogoEco from '../../assets/logo.svg'
+import LogoEco from '../../../assets/logo.svg'
 
 
 export const schemaLogin = z.object({

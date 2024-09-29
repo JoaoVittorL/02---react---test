@@ -2,7 +2,7 @@ import { createBrowserRouter } from 'react-router-dom';
 import { AppLayout } from '../pages/_layouts/app';
 import { AuthLayout } from '../pages/_layouts/auth';
 import { Movimentation } from '../pages/app/movimentation';
-import { SignIn } from '../pages/auth/sign-in';
+import { SignIn } from '../pages/auth/login';
 import { Historic } from '../pages/app/historic';
 import { Budget } from '../pages/app/budget';
 import { Physical } from '../pages/app/physical';
@@ -53,7 +53,7 @@ export const router = createBrowserRouter([
     element: <AuthLayout />,
     children: [
       {
-        path: '/sign-in',
+        path: '/login',
         element: <PublicRoute element={<SignIn />} isAuthenticated={isAuthenticated} />,
       },
     ],
