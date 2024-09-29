@@ -31,7 +31,7 @@ const Sidebar = ({ typeAcess }: { typeAcess: string }) => {
                   <NavLink
                     to={item.link}
                     className={({ isActive }) =>
-                      `flex items-center py-4 gap-2 hover:bg-blue-700 hover:text-white-500 transition-colors duration-300 rounded-r-sm ${isCollapsed ? 'justify-center' : 'px-4'} ${isActive ? 'bg-blue-700 text-white-500' : ''}`
+                      `flex items-center py-4 gap-2 hover:bg-blue-800 hover:text-white-500 transition-colors duration-300 rounded-r-sm ${isCollapsed ? 'justify-center' : 'px-4'} ${isActive ? 'bg-blue-800 text-white-500' : ''}`
                     }
                     end
                   >
@@ -41,7 +41,7 @@ const Sidebar = ({ typeAcess }: { typeAcess: string }) => {
                 ) : (
                   <button
                     onClick={() => setOpenMenu(openMenu === item.id ? null : item.id)}
-                    className={`flex items-center w-full py-4 gap-2 hover:bg-blue-700 hover:text-white-500 transition-colors duration-200 rounded-r-sm ${isCollapsed ? 'justify-center' : 'px-4'} ${openMenu === item.id ? 'bg-blue-700 text-white-500' : ''}`}
+                    className={`flex items-center w-full py-4 gap-2 hover:bg-blue-800 hover:text-white-500 transition-colors duration-200 rounded-r-sm ${isCollapsed ? 'justify-center' : 'px-4'} ${openMenu === item.id ? 'bg-blue-800 text-white-500' : ''}`}
                   >
                     <item.icon className="cursor-pointer text-2xl hover:text-white" />
                     {!isCollapsed && <span>{item.label}</span>}
@@ -59,10 +59,11 @@ const Sidebar = ({ typeAcess }: { typeAcess: string }) => {
                           <NavLink
                             to={subItem.link}
                             className={({ isActive }) =>
-                              `block mt-1 w-full p-4 rounded-l-sm hover:bg-blue-700 hover:text-white-500 transition-colors duration-200 no-underline ${isActive ? 'bg-blue-700 text-white-500' : ''}`
+                              `flex items-center py-4 gap-2 mt-1 w-full p-4 rounded-l-sm hover:bg-blue-800 hover:text-white-500 transition-colors duration-200 no-underline ${isActive ? 'bg-blue-800 text-white-500' : ''}`
                             }
                             end
                           >
+                            <subItem.icon className="cursor-pointer text-2xl hover:text-white" />
                             {subItem.label}
                           </NavLink>
                         </li>

@@ -1,10 +1,19 @@
-import { Activity, HandCoins, History, Package, SquarePen, Swords } from 'lucide-react';
-
+import {
+  Activity,
+  HandCoins,
+  History,
+  Package,
+  SquarePen,
+  Swords,
+  BookUser,
+  Construction,
+  Pickaxe,
+} from 'lucide-react';
 type MenuItem = {
   id: string;
   label: string;
   icon: any;
-  subMenu: { id: string; label: string; link: string }[];
+  subMenu: { id: string; label: string; icon: any; link: string }[];
   link: string;
 };
 type MenuObject = {
@@ -53,9 +62,9 @@ const objMenu: MenuObject = {
       icon: SquarePen,
       link: '/manage',
       subMenu: [
-        { id: 'sub-1', label: 'Usuários', link: '/manage/accounts' },
-        { id: 'sub-2', label: 'Obras', link: '/manage/constructions' },
-        { id: 'sub-3', label: 'Materiais', link: '/manage/materials' },
+        { id: 'sub-1', label: 'Usuários', icon: BookUser, link: '/manage/accounts' },
+        { id: 'sub-2', label: 'Obras', icon: Construction, link: '/manage/constructions' },
+        { id: 'sub-3', label: 'Materiais', icon: Pickaxe, link: '/manage/materials' },
       ],
     },
   ],
