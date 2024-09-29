@@ -54,7 +54,7 @@ const Sidebar = ({ typeAcess }: { typeAcess: string }) => {
                 {!isCollapsed && (
                   <div className={`overflow-hidden transition-all duration-300 ease-in-out ${openMenu === item.id ? 'max-h-[200px] opacity-100' : 'max-h-0 opacity-0'}`}>
                     <ul className="pl-10 mt-1 w-full">
-                      {item.subMenu?.map((subItem) => (
+                      {item.subMenu.map((subItem) => (
                         <li key={subItem.id}>
                           <NavLink
                             to={subItem.link}
