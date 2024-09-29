@@ -5,7 +5,7 @@ export function AppLayout() {
   return (
     <div className='flex w-screen'>
       <Sidebar typeAcess="Administrador" />
-      <div>
+      <div className='p-2'>
         <Outlet />
       </div>
     </div>

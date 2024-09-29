@@ -11,6 +11,7 @@ import { Input } from '@/components/ui/input'
 
 import LogoEco from '../../assets/logo.svg'
 
+
 export const schemaLogin = z.object({
   email: z
     .string()
@@ -44,7 +45,7 @@ export function SignIn() {
     setShowPassword(!showPassword)
   }
 
-  const handleSubmitForm = (values: FormData) => {
+  const handleSubmitForm = async (values: FormData) => {
     console.log(values)
   }
 

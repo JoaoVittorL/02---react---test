@@ -35,7 +35,7 @@ const Sidebar = ({ typeAcess }: { typeAcess: string }) => {
                     }
                     end
                   >
-                    <item.icon className="cursor-pointer text-2xl hover:text-white" />
+                    <item.icon className="cursor-pointer text-2xl" />
                     {!isCollapsed && <span>{item.label}</span>}
                   </NavLink>
                 ) : (
@@ -43,7 +43,7 @@ const Sidebar = ({ typeAcess }: { typeAcess: string }) => {
                     onClick={() => setOpenMenu(openMenu === item.id ? null : item.id)}
                     className={`flex items-center w-full py-4 gap-2 hover:bg-blue-800 hover:text-white-500 transition-colors duration-200 rounded-r-sm ${isCollapsed ? 'justify-center' : 'px-4'} ${openMenu === item.id ? 'bg-blue-800 text-white-500' : ''}`}
                   >
-                    <item.icon className="cursor-pointer text-2xl hover:text-white" />
+                    <item.icon className="cursor-pointer text-2xl" />
                     {!isCollapsed && <span>{item.label}</span>}
                     {!isCollapsed && (
                       <ChevronLeft className={`ml-auto transition-transform ${openMenu === item.id ? 'rotate-90' : ''}`} />
