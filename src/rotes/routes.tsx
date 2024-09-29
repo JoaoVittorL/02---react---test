@@ -12,44 +12,39 @@ import { Materials } from '../pages/app/manage/materials';
 import PrivateRoute from './private-route';
 import PublicRoute from './public-route';
 
-const isAuthenticated = false
+const isAuthenticated = true;
+const typeAcess = 'almoxarife';
+
+const accessRoutes = {
+  almoxarife: [
+    { path: '/', element: <Movimentation /> },
+    { path: '/budget', element: <Budget /> },
+    { path: '/historic', element: <Historic /> },
+    { path: '/physical', element: <Physical /> },
+  ],
+  admin: [
+    { path: '/manage/accounts', element: <Accounts /> },
+    { path: '/manage/constructions', element: <Constructions /> },
+    { path: '/manage/materials', element: <Materials /> },
+  ],
+};
+
+const DeniedAccess = () => <h1>Acesso Negado</h1>;
+
+const userRoutes = accessRoutes[typeAcess] || [];
 
 export const router = createBrowserRouter([
   {
     path: '/',
     element: <AppLayout />,
     children: [
+      ...userRoutes.map(route => ({
+        path: route.path,
+        element: <PrivateRoute element={route.element} isAuthenticated={isAuthenticated} />,
+      })),
       {
-        path: '/',
-        element: <PrivateRoute element={<Movimentation />} isAuthenticated={isAuthenticated} />,
-      },
-      {
-        path: '/budget',
-        element: <PrivateRoute element={<Budget />} isAuthenticated={isAuthenticated} />,
-      },
-      {
-        path: '/historic',
-        element: <PrivateRoute element={<Historic />} isAuthenticated={isAuthenticated} />,
-      },
-      {
-        path: '/physical',
-        element: <PrivateRoute element={<Physical />} isAuthenticated={isAuthenticated} />,
-      },
-      {
-        path: '/transfer',
-        element: <PrivateRoute element={<Physical />} isAuthenticated={isAuthenticated} />,
-      },
-      {
-        path: '/manage/accounts',
-        element: <PrivateRoute element={<Accounts />} isAuthenticated={isAuthenticated} />,
-      },
-      {
-        path: '/manage/constructions',
-        element: <PrivateRoute element={<Constructions />} isAuthenticated={isAuthenticated} />,
-      },
-      {
-        path: '/manage/materials',
-        element: <PrivateRoute element={<Materials />} isAuthenticated={isAuthenticated} />,
+        path: '*',
+        element: <DeniedAccess />,
       },
     ],
   },
