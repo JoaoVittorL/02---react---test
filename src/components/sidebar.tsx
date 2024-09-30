@@ -80,13 +80,13 @@ const Sidebar = ({ typeAcess }: { typeAcess: string }) => {
       <div className={`${isCollapsed ? 'justify-center flex-col' : 'w-full justify-between'} flex items-center text-2xl p-4 border-t border-border gap-4`}>
         <ThemeToggle />
         <span title="Sair">
-          <PowerOff className="cursor-pointer text-red-800" name="sign-out" aria-label="sign-out" onClick={() => console.log("quero sair")} />
+          <PowerOff className="cursor-pointer text-red-600" name="sign-out" aria-label="sign-out" onClick={() => console.log("quero sair")} />
         </span>
         <button name="toggleSidebar" onClick={() => setIsCollapsed((state) => !state)}>
           {isCollapsed ? (
-            <span title="Expandir"><ArrowRightToLine aria-label="icon-double-right" /></span>
+            <span title="Expandir"><ArrowRightToLine className='text-blue-800 dark:text-white-500' aria-label="icon-double-right" /></span>
           ) : (
-            <span title="Recuar"><ArrowLeftFromLine aria-label="icon-double-left" /></span>
+            <span title="Recuar"><ArrowLeftFromLine className='text-blue-800 dark:text-white-500' aria-label="icon-double-left" /></span>
           )}
         </button>
       </div>
