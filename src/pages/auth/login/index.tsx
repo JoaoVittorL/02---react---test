@@ -10,8 +10,6 @@ import { Button } from '@/components/ui/button'
 import { Input } from '@/components/ui/input'
 
 import LogoEco from '../../../assets/logo.svg'
-import { useAuth } from '@/contexts/AuthContext'
-import { useNavigate } from 'react-router-dom'
 
 
 export const schemaLogin = z.object({
@@ -28,7 +26,6 @@ type FormData = z.infer<typeof schemaLogin>
 
 export function SignIn() {
   const [showPassword, setShowPassword] = useState(false)
-  const navigate = useNavigate()
 
   const {
     handleSubmit,
@@ -47,16 +44,9 @@ export function SignIn() {
   const togglePasswordVisibility = () => {
     setShowPassword(!showPassword)
   }
-  const { saveToken } = useAuth();
 
   const handleSubmitForm = async (values: FormData) => {
     console.log(values)
-    const newToken = 'token'
-    saveToken(newToken)
-
-    if (newToken) {
-      navigate('/')
-    }
   }
 
   return (

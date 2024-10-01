@@ -1,5 +1,5 @@
 import { Helmet } from "react-helmet-async";
-import { AccountsTableFilter } from "./accounts-table-filter";
+import { AccountsTableFilter } from "../../historic/accounts-table-filter";
 import { useSearchParams } from "react-router-dom";
 import { Dialog, DialogTrigger } from '@/components/ui/dialog';
 import {
@@ -15,7 +15,7 @@ import { useQuery } from "@tanstack/react-query";
 import { Pagination } from "@/components/pagination";
 import { useCallback, useState } from "react";
 import EditAccount from "./account-edit";
-import { AccountsTableRow } from "./account-table-row";
+import { AccountsTableRow } from "../../historic/account-table-row";
 import { Button } from "@/components/ui/button";
 import { UserPlus } from "lucide-react";
 import { CreateNewAccount } from "./account-create";

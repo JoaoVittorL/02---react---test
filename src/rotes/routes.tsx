@@ -3,7 +3,6 @@ import { AppLayout } from '../pages/_layouts/app';
 import { AuthLayout } from '../pages/_layouts/auth';
 import { Movimentation } from '../pages/app/movimentation';
 import { SignIn } from '../pages/auth/login';
-import { Historic } from '../pages/app/historic';
 import { Budget } from '../pages/app/budget';
 import { Physical } from '../pages/app/physical';
 import { Accounts } from '../pages/app/manage/accounts';
@@ -11,15 +10,13 @@ import { Constructions } from '../pages/app/manage/constructions';
 import { Materials } from '../pages/app/manage/materials';
 import PrivateRoute from './private-route';
 import PublicRoute from './public-route';
-import { useAuth } from '@/contexts/AuthContext';
+import { Historic } from '@/pages/app/historic';
 
 const DeniedAccess = () => <h1>Acesso Negado</h1>;
 
 const Routes = () => {
-  const { token } = useAuth();
-  console.log(token);
 
-  const isAuthenticated = !!token;
+  const isAuthenticated = true;
   const typeAccess = 'Administrador';
 
   const accessRoutes = {
@@ -30,6 +27,7 @@ const Routes = () => {
       { path: '/physical', element: <Physical /> },
     ],
     Administrador: [
+      { path: '/historic', element: <Historic /> },
       { path: '/manage/accounts', element: <Accounts /> },
       { path: '/manage/constructions', element: <Constructions /> },
       { path: '/manage/materials', element: <Materials /> },
