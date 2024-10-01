@@ -1,11 +1,10 @@
 export interface Base {
-  props: {
-    baseName: string;
-    contractId: {
-      value: string;
+  base: {
+    props: {
+      baseName: string;
+      contractId: {
+        value: string;
+      };
     };
-  };
-  _id: {
-    value: string;
   };
 }
