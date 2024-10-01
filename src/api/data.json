@@ -1,0 +1,38 @@
+[
+  {
+    "id": "123456789101",
+    "cpf": "123456789102",
+    "name": "João",
+    "email": "oqoqH@example.com",
+    "status": "active",
+    "type": "admin",
+    "contract": {
+      "props": {
+        "contractName": "Eco"
+      }
+    },
+    "base": {
+      "props": {
+        "baseName": "Eco"
+      }
+    }
+  },
+  {
+    "id": "12345678912",
+    "cpf": "12345678910223",
+    "name": "João",
+    "email": "oqoqH@example.com",
+    "status": "active",
+    "type": "admin",
+    "contract": {
+      "props": {
+        "contractName": "Eco"
+      }
+    },
+    "base": {
+      "props": {
+        "baseName": "Eco"
+      }
+    }
+  }
+]

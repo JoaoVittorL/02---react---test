@@ -27,7 +27,7 @@ const Sidebar = ({ typeAcess }: { typeAcess: string }) => {
           <ul className="list-none">
             {menu.map((item) => (
               <li key={item.id} title={item.label} className="group">
-                {item.subMenu.length === 0 ? (
+                {item.subMenu?.length === 0 ? (
                   <NavLink
                     to={item.link}
                     className={({ isActive }) =>
@@ -35,7 +35,7 @@ const Sidebar = ({ typeAcess }: { typeAcess: string }) => {
                     }
                     end
                   >
-                    <item.icon className="cursor-pointer text-2xl hover:text-white" />
+                    <item.icon className="cursor-pointer text-2xl" />
                     {!isCollapsed && <span>{item.label}</span>}
                   </NavLink>
                 ) : (
@@ -43,7 +43,7 @@ const Sidebar = ({ typeAcess }: { typeAcess: string }) => {
                     onClick={() => setOpenMenu(openMenu === item.id ? null : item.id)}
                     className={`flex items-center w-full py-4 gap-2 hover:bg-blue-800 hover:text-white-500 transition-colors duration-200 rounded-r-sm ${isCollapsed ? 'justify-center' : 'px-4'} ${openMenu === item.id ? 'bg-blue-800 text-white-500' : ''}`}
                   >
-                    <item.icon className="cursor-pointer text-2xl hover:text-white" />
+                    <item.icon className="cursor-pointer text-2xl" />
                     {!isCollapsed && <span>{item.label}</span>}
                     {!isCollapsed && (
                       <ChevronLeft className={`ml-auto transition-transform ${openMenu === item.id ? 'rotate-90' : ''}`} />
@@ -80,13 +80,13 @@ const Sidebar = ({ typeAcess }: { typeAcess: string }) => {
       <div className={`${isCollapsed ? 'justify-center flex-col' : 'w-full justify-between'} flex items-center text-2xl p-4 border-t border-border gap-4`}>
         <ThemeToggle />
         <span title="Sair">
-          <PowerOff className="cursor-pointer text-red-800" name="sign-out" aria-label="sign-out" onClick={() => console.log("quero sair")} />
+          <PowerOff className="cursor-pointer text-red-600" name="sign-out" aria-label="sign-out" onClick={() => console.log("quero sair")} />
         </span>
         <button name="toggleSidebar" onClick={() => setIsCollapsed((state) => !state)}>
           {isCollapsed ? (
-            <span title="Expandir"><ArrowRightToLine aria-label="icon-double-right" /></span>
+            <span title="Expandir"><ArrowRightToLine className='text-blue-800 dark:text-white-500' aria-label="icon-double-right" /></span>
           ) : (
-            <span title="Recuar"><ArrowLeftFromLine aria-label="icon-double-left" /></span>
+            <span title="Recuar"><ArrowLeftFromLine className='text-blue-800 dark:text-white-500' aria-label="icon-double-left" /></span>
           )}
         </button>
       </div>
