@@ -1,5 +1,8 @@
 import { createRoot } from 'react-dom/client'
 
 import { App } from './app'
+import { enableMSW } from './api/mocks'
 
-createRoot(document.getElementById('root')!).render(<App />)
+enableMSW().then(() => {
+  createRoot(document.getElementById('root')!).render(<App />)
+})
