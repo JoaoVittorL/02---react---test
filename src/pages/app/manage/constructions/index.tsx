@@ -1,4 +1,5 @@
 import { Registration } from "@/components/registration";
+import { toast } from "sonner";
 import { HardHat } from "lucide-react";
 import { Helmet } from "react-helmet-async";
 import { z } from "zod";
@@ -22,14 +23,11 @@ import { Button } from "@/components/ui/button";
 const schemaConstructions = z.object({
   project_number: z.string().min(6, { message: "Por favor, insira uam obra" }).max(20, { message: "Por favor, insira um projeto" }),
   description: z.string().min(6, { message: "Por favor, insira sua descrição" }),
-  city: z.string().min(1, { message: 'A uidade é obrigatória' }).refine(action => action !== 'Escolha', {
-    message: 'Selecione uma unidade válida',
-  }),
   type: z.string().min(1, { message: 'A uidade é obrigatória' }).refine(action => action !== 'Escolha', {
     message: 'Selecione uma unidade válida',
   }),
-  baseId: z.string().min(1, { message: 'A base é obrigatória' }).refine(action => action !== 'Escolha', {
-    message: 'Selecione uma base válida',
+  city: z.string().min(1, { message: 'A cidade é obrigatória' }).refine(action => action !== 'Escolha', {
+    message: 'Selecione uma cidade válida',
   }),
 })
 
@@ -46,16 +44,16 @@ export function Constructions() {
       description: "",
       type: "Escolha",
       city: "Escolha",
-      baseId: "Escolha",
     },
   });
 
-  const watchFields = watch(["project_number", "type", "description", "city", "baseId"]);
+  const watchFields = watch(["project_number", "description", "type", "city"]);
   const isAnyFieldFilled = watchFields.every((field) => field !== "" && field !== "Escolha");
 
   const handleFormSubmit = useCallback(async (values: FormData) => {
-    setIsLoading(true);
     console.log(values);
+    toast.success('Pode enviar!')
+    // setIsLoading(true);
     // const response = await fetchConstructions(values);
     // if (response.status === 201 || response.status === 200) {
     //   toast.success(response.message);
@@ -63,7 +61,7 @@ export function Constructions() {
     // } else {
     //   toast.error(response.message || "Erro desconhecido.");
     // }
-    setIsLoading(false);
+    // setIsLoading(false);
   }, [reset]);
 
   const getInputClasses = (error?: string) => {
@@ -84,80 +82,57 @@ export function Constructions() {
             <Controller
               name="type"
               control={control}
-              defaultValue="Escolha"
-              render={({ field: { name, onChange, value }, fieldState: { error } }) => (
-                <div className="flex-1 w-full">
+              render={({ field: { name, onChange, value, disabled } }) => {
+                return (
                   <Select
+                    defaultValue="all"
                     name={name}
                     onValueChange={onChange}
                     value={value}
-                    disabled={isLoading}
+                    disabled={disabled}
                   >
-                    <SelectTrigger className={`h-8 ${getInputClasses(error?.message)}`}>
+                    <SelectTrigger className="h-8 w-[180px]">
                       <SelectValue />
                     </SelectTrigger>
                     <SelectContent>
-                      <SelectItem value="Escolha">Tipo</SelectItem>
-                      <SelectItem value="OC">OC</SelectItem>
-                      <SelectItem value="OS">OS</SelectItem>
-                      <SelectItem value="OBRA">OBRA</SelectItem>
+                      <SelectItem value="all">Todos status</SelectItem>
+                      <SelectItem value="pending">Pendente</SelectItem>
+                      <SelectItem value="canceled">Cancelado</SelectItem>
+                      <SelectItem value="processing">Em preparo</SelectItem>
+                      <SelectItem value="delivering">Em entrega</SelectItem>
+                      <SelectItem value="delivered">Entregue</SelectItem>
                     </SelectContent>
                   </Select>
-                </div>
-              )}
-            />
-            <Controller
-              name="baseId"
-              control={control}
-              defaultValue="Escolha"
-              render={({ field: { name, onChange, value }, fieldState: { error } }) => (
-                <div className="flex-1 w-full">
-                  <Select
-                    name={name}
-                    onValueChange={onChange}
-                    value={value}
-                    disabled={isLoading}
-                  >
-                    <SelectTrigger className={`w-[180px] h-8 ${getInputClasses(error?.message)}`}>
-                      <SelectValue />
-                    </SelectTrigger>
-                    <SelectContent>
-                      <SelectItem value="Escolha">Base</SelectItem>
-                      <SelectItem value="1">Base 1</SelectItem>
-                      <SelectItem value="2">Base 2</SelectItem>
-                      <SelectItem value="3">Base 3</SelectItem>
-                      {/* {baseOptions[0].map((base) => (
-                        <SelectItem key={base.value} value={base.value}>{base.label}</SelectItem>
-                      ))} */}
-                    </SelectContent>
-                  </Select>
-                </div>
-              )}
-            />
+                )
+              }}
+            ></Controller>
             <Controller
               name="city"
               control={control}
-              defaultValue="Escolha"
-              render={({ field: { name, onChange, value }, fieldState: { error } }) => (
-                <div className="flex-1 w-full">
+              render={({ field: { name, onChange, value, disabled } }) => {
+                return (
                   <Select
+                    defaultValue="all"
                     name={name}
                     onValueChange={onChange}
                     value={value}
-                    disabled={isLoading}
+                    disabled={disabled}
                   >
-                    <SelectTrigger className={`h-8 ${getInputClasses(error?.message)}`}>
+                    <SelectTrigger className="h-8 w-[180px]">
                       <SelectValue />
                     </SelectTrigger>
                     <SelectContent>
-                      <SelectItem value="Escolha">Cidade</SelectItem>
-                      <SelectItem value="VITÓRIA DA CONQUISTA">VITÓRIA DA CONQUISTA</SelectItem>
-                      <SelectItem value="ITABERABA">ITABERABA</SelectItem>
+                      <SelectItem value="all">Todos status</SelectItem>
+                      <SelectItem value="pending">Pendente</SelectItem>
+                      <SelectItem value="canceled">Cancelado</SelectItem>
+                      <SelectItem value="processing">Em preparo</SelectItem>
+                      <SelectItem value="delivering">Em entrega</SelectItem>
+                      <SelectItem value="delivered">Entregue</SelectItem>
                     </SelectContent>
                   </Select>
-                </div>
-              )}
-            />
+                )
+              }}
+            ></Controller>
           </div>
           <Registration.Actions>
             <Button type="submit" disabled={!isAnyFieldFilled || isLoading} variant="default" size={"xs"} id="submit" className="w-full mt-4">
@@ -165,7 +140,7 @@ export function Constructions() {
             </Button>
           </Registration.Actions>
         </Registration.Form >
-      </Registration.Root>
+      </Registration.Root >
     </>
   )
 }

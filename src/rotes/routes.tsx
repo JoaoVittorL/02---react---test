@@ -15,7 +15,7 @@ const DeniedAccess = () => <h1>Acesso Negado</h1>;
 
 const Routes = () => {
 
-  const isAuthenticated = false;
+  const isAuthenticated = true;
   const typeAccess = 'Administrador';
 
   const accessRoutes = {
@@ -24,6 +24,7 @@ const Routes = () => {
       { path: '/budget', element: <Budget /> },
       { path: '/historic', element: <Historic /> },
       { path: '/physical', element: <Physical /> },
+      { path: '/manage/constructions', element: <Constructions /> },
     ],
     Administrador: [
       { path: '/historic', element: <Historic /> },
