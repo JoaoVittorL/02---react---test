@@ -1,15 +1,14 @@
 import { createBrowserRouter } from 'react-router-dom';
 import { AppLayout } from '../pages/_layouts/app';
 import { AuthLayout } from '../pages/_layouts/auth';
-import { Movimentation } from '../pages/app/movimentation';
 import { SignIn } from '../pages/auth/login';
 import { Budget } from '../pages/app/budget';
 import { Physical } from '../pages/app/physical';
 import PrivateRoute from './private-route';
 import PublicRoute from './public-route';
-import { Historic } from '@/pages/app/historic';
 import { Constructions } from '@/pages/app/manage/constructions';
 import { Materials } from '@/pages/app/manage/materials';
+import Movimentation from '@/pages/app/movimentation';
 
 const DeniedAccess = () => <h1>Acesso Negado</h1>;
 
@@ -22,12 +21,11 @@ const Routes = () => {
     almoxarife: [
       { path: '/', element: <Movimentation /> },
       { path: '/budget', element: <Budget /> },
-      { path: '/historic', element: <Historic /> },
       { path: '/physical', element: <Physical /> },
       { path: '/manage/constructions', element: <Constructions /> },
     ],
     Administrador: [
-      { path: '/historic', element: <Historic /> },
+      { path: '/', element: <Movimentation /> },
       { path: '/manage/constructions', element: <Constructions /> },
       { path: '/manage/materials', element: <Materials /> },
     ],

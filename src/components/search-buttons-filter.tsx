@@ -8,7 +8,7 @@ interface SearchButtonsFilterProps {
 
 export const SearchButtonsFilter: React.FC<SearchButtonsFilterProps> = ({ activeButtonInteraction, handleClearFilters }) => {
   return (
-    <div className="flex gap-2 w-full">
+    <div className="flex gap-2 w-full max-w-[400px]">
       <Button type="submit" disabled={!activeButtonInteraction} size="xs" className="flex-1 min-w-[160px]">
         <Search className="mr-2 h-4 w-4" />
         Filtrar

@@ -1,38 +1,3609 @@
-[
-  {
-    "id": "123456789101",
-    "cpf": "123456789102",
-    "name": "João",
-    "email": "oqoqH@example.com",
-    "status": "active",
-    "type": "admin",
-    "contract": {
-      "props": {
-        "contractName": "Eco"
+{
+  "movimentations": [
+    {
+      "id": "9d23e236-1dff-4b67-9845-2cb8659d34f1",
+      "createdAt": "2024-09-25T13:44:35.914Z",
+      "observation": "",
+      "value": -7,
+      "base": {
+        "id": "dbe82710-e5e8-449a-ba49-471b356f808d",
+        "baseName": "Itaberaba"
+      },
+      "user": {
+        "id": "627a842b-eeee-42f2-b8aa-9a9fbdee0b83",
+        "name": "Rodrigo",
+        "email": "rodrigo1@ecoeletrica.com.br"
+      },
+      "project": {
+        "id": "30d2f9c4-decc-418a-bc5d-0fb16db7af57",
+        "project_number": "B-12345678"
+      },
+      "material": {
+        "id": "0302532a-0263-4b87-87f4-bb9d9caffd48",
+        "code": 7777777777,
+        "description": "8888888888",
+        "unit": "LT",
+        "type": "FERRAGEM"
       }
     },
-    "base": {
-      "props": {
-        "baseName": "Eco"
-      }
-    }
-  },
-  {
-    "id": "12345678912",
-    "cpf": "12345678910223",
-    "name": "João",
-    "email": "oqoqH@example.com",
-    "status": "active",
-    "type": "admin",
-    "contract": {
-      "props": {
-        "contractName": "Eco"
+    {
+      "id": "a77d7002-74dc-4aa3-bc32-482c59039016",
+      "createdAt": "2024-09-25T13:22:56.715Z",
+      "observation": "Material adicional - ",
+      "value": 7,
+      "base": {
+        "id": "dbe82710-e5e8-449a-ba49-471b356f808d",
+        "baseName": "Itaberaba"
+      },
+      "user": {
+        "id": "627a842b-eeee-42f2-b8aa-9a9fbdee0b83",
+        "name": "Rodrigo",
+        "email": "rodrigo1@ecoeletrica.com.br"
+      },
+      "project": {
+        "id": "30d2f9c4-decc-418a-bc5d-0fb16db7af57",
+        "project_number": "B-12345678"
+      },
+      "material": {
+        "id": "0302532a-0263-4b87-87f4-bb9d9caffd48",
+        "code": 7777777777,
+        "description": "8888888888",
+        "unit": "LT",
+        "type": "FERRAGEM"
       }
     },
-    "base": {
-      "props": {
-        "baseName": "Eco"
+    {
+      "id": "4ee97fd4-cf5e-40f2-91c2-6c572808c4ae",
+      "createdAt": "2024-10-01T13:02:46.309Z",
+      "observation": "Material adicional - test rafa",
+      "value": 66,
+      "base": {
+        "id": "dbe82710-e5e8-449a-ba49-471b356f808d",
+        "baseName": "Itaberaba"
+      },
+      "user": {
+        "id": "627a842b-eeee-42f2-b8aa-9a9fbdee0b83",
+        "name": "Rodrigo",
+        "email": "rodrigo1@ecoeletrica.com.br"
+      },
+      "project": {
+        "id": "30d2f9c4-decc-418a-bc5d-0fb16db7af57",
+        "project_number": "B-12345678"
+      },
+      "material": {
+        "id": "0302532a-0263-4b87-87f4-bb9d9caffd48",
+        "code": 7777777777,
+        "description": "8888888888",
+        "unit": "LT",
+        "type": "FERRAGEM"
+      }
+    },
+    {
+      "id": "93a6c645-26d8-4f6f-b5b4-1256507a5f62",
+      "createdAt": "2024-10-03T16:12:04.251Z",
+      "observation": "",
+      "value": -66,
+      "base": {
+        "id": "dbe82710-e5e8-449a-ba49-471b356f808d",
+        "baseName": "Itaberaba"
+      },
+      "user": {
+        "id": "627a842b-eeee-42f2-b8aa-9a9fbdee0b83",
+        "name": "Rodrigo",
+        "email": "rodrigo1@ecoeletrica.com.br"
+      },
+      "project": {
+        "id": "30d2f9c4-decc-418a-bc5d-0fb16db7af57",
+        "project_number": "B-12345678"
+      },
+      "material": {
+        "id": "0302532a-0263-4b87-87f4-bb9d9caffd48",
+        "code": 7777777777,
+        "description": "8888888888",
+        "unit": "LT",
+        "type": "FERRAGEM"
+      }
+    },
+    {
+      "id": "0e70dc3d-e1f6-45bc-b7b1-2a284f08c586",
+      "createdAt": "2024-09-26T10:55:03.719Z",
+      "observation": "Material adicional - Testando ",
+      "value": 77,
+      "base": {
+        "id": "dbe82710-e5e8-449a-ba49-471b356f808d",
+        "baseName": "Itaberaba"
+      },
+      "user": {
+        "id": "627a842b-eeee-42f2-b8aa-9a9fbdee0b83",
+        "name": "Rodrigo",
+        "email": "rodrigo1@ecoeletrica.com.br"
+      },
+      "project": {
+        "id": "30d2f9c4-decc-418a-bc5d-0fb16db7af57",
+        "project_number": "B-12345678"
+      },
+      "material": {
+        "id": "12846b1c-2386-4bad-9a1d-4d422d7b4af4",
+        "code": 1234568,
+        "description": "item poste 123",
+        "unit": "CDA",
+        "type": "FERRAGEM"
+      }
+    },
+    {
+      "id": "e66327ec-378f-4415-9f35-e54d875c427c",
+      "createdAt": "2024-10-03T16:27:24.647Z",
+      "observation": "",
+      "value": -2,
+      "base": {
+        "id": "dbe82710-e5e8-449a-ba49-471b356f808d",
+        "baseName": "Itaberaba"
+      },
+      "user": {
+        "id": "627a842b-eeee-42f2-b8aa-9a9fbdee0b83",
+        "name": "Rodrigo",
+        "email": "rodrigo1@ecoeletrica.com.br"
+      },
+      "project": {
+        "id": "30d2f9c4-decc-418a-bc5d-0fb16db7af57",
+        "project_number": "B-12345678"
+      },
+      "material": {
+        "id": "12846b1c-2386-4bad-9a1d-4d422d7b4af4",
+        "code": 1234568,
+        "description": "item poste 123",
+        "unit": "CDA",
+        "type": "FERRAGEM"
+      }
+    },
+    {
+      "id": "018324f5-5140-48e6-89b4-248ff1daa5d9",
+      "createdAt": "2024-10-03T16:19:26.209Z",
+      "observation": "",
+      "value": -2,
+      "base": {
+        "id": "dbe82710-e5e8-449a-ba49-471b356f808d",
+        "baseName": "Itaberaba"
+      },
+      "user": {
+        "id": "627a842b-eeee-42f2-b8aa-9a9fbdee0b83",
+        "name": "Rodrigo",
+        "email": "rodrigo1@ecoeletrica.com.br"
+      },
+      "project": {
+        "id": "30d2f9c4-decc-418a-bc5d-0fb16db7af57",
+        "project_number": "B-12345678"
+      },
+      "material": {
+        "id": "12846b1c-2386-4bad-9a1d-4d422d7b4af4",
+        "code": 1234568,
+        "description": "item poste 123",
+        "unit": "CDA",
+        "type": "FERRAGEM"
+      }
+    },
+    {
+      "id": "3709b569-a896-45d8-a28e-310065071e24",
+      "createdAt": "2024-10-03T16:42:02.768Z",
+      "observation": "",
+      "value": -2,
+      "base": {
+        "id": "dbe82710-e5e8-449a-ba49-471b356f808d",
+        "baseName": "Itaberaba"
+      },
+      "user": {
+        "id": "627a842b-eeee-42f2-b8aa-9a9fbdee0b83",
+        "name": "Rodrigo",
+        "email": "rodrigo1@ecoeletrica.com.br"
+      },
+      "project": {
+        "id": "30d2f9c4-decc-418a-bc5d-0fb16db7af57",
+        "project_number": "B-12345678"
+      },
+      "material": {
+        "id": "12846b1c-2386-4bad-9a1d-4d422d7b4af4",
+        "code": 1234568,
+        "description": "item poste 123",
+        "unit": "CDA",
+        "type": "FERRAGEM"
+      }
+    },
+    {
+      "id": "61ff51c4-2fd9-4ba5-82d9-475a58df0390",
+      "createdAt": "2024-10-03T16:47:33.741Z",
+      "observation": "",
+      "value": -6,
+      "base": {
+        "id": "dbe82710-e5e8-449a-ba49-471b356f808d",
+        "baseName": "Itaberaba"
+      },
+      "user": {
+        "id": "627a842b-eeee-42f2-b8aa-9a9fbdee0b83",
+        "name": "Rodrigo",
+        "email": "rodrigo1@ecoeletrica.com.br"
+      },
+      "project": {
+        "id": "30d2f9c4-decc-418a-bc5d-0fb16db7af57",
+        "project_number": "B-12345678"
+      },
+      "material": {
+        "id": "12846b1c-2386-4bad-9a1d-4d422d7b4af4",
+        "code": 1234568,
+        "description": "item poste 123",
+        "unit": "CDA",
+        "type": "FERRAGEM"
+      }
+    },
+    {
+      "id": "44601344-e6e8-485a-a89b-1d49725f8a75",
+      "createdAt": "2024-10-03T16:49:56.198Z",
+      "observation": "",
+      "value": 15,
+      "base": {
+        "id": "dbe82710-e5e8-449a-ba49-471b356f808d",
+        "baseName": "Itaberaba"
+      },
+      "user": {
+        "id": "627a842b-eeee-42f2-b8aa-9a9fbdee0b83",
+        "name": "Rodrigo",
+        "email": "rodrigo1@ecoeletrica.com.br"
+      },
+      "project": {
+        "id": "30d2f9c4-decc-418a-bc5d-0fb16db7af57",
+        "project_number": "B-12345678"
+      },
+      "material": {
+        "id": "12846b1c-2386-4bad-9a1d-4d422d7b4af4",
+        "code": 1234568,
+        "description": "item poste 123",
+        "unit": "CDA",
+        "type": "FERRAGEM"
+      }
+    },
+    {
+      "id": "0155b103-95b6-4df0-866f-70279ddb5cd6",
+      "createdAt": "2024-10-03T16:41:03.526Z",
+      "observation": "",
+      "value": -2,
+      "base": {
+        "id": "dbe82710-e5e8-449a-ba49-471b356f808d",
+        "baseName": "Itaberaba"
+      },
+      "user": {
+        "id": "627a842b-eeee-42f2-b8aa-9a9fbdee0b83",
+        "name": "Rodrigo",
+        "email": "rodrigo1@ecoeletrica.com.br"
+      },
+      "project": {
+        "id": "30d2f9c4-decc-418a-bc5d-0fb16db7af57",
+        "project_number": "B-12345678"
+      },
+      "material": {
+        "id": "12846b1c-2386-4bad-9a1d-4d422d7b4af4",
+        "code": 1234568,
+        "description": "item poste 123",
+        "unit": "CDA",
+        "type": "FERRAGEM"
+      }
+    },
+    {
+      "id": "ab3d41a4-6857-4f44-9fc3-eb3fadfda5b7",
+      "createdAt": "2024-10-03T16:37:42.104Z",
+      "observation": "",
+      "value": -3,
+      "base": {
+        "id": "dbe82710-e5e8-449a-ba49-471b356f808d",
+        "baseName": "Itaberaba"
+      },
+      "user": {
+        "id": "627a842b-eeee-42f2-b8aa-9a9fbdee0b83",
+        "name": "Rodrigo",
+        "email": "rodrigo1@ecoeletrica.com.br"
+      },
+      "project": {
+        "id": "30d2f9c4-decc-418a-bc5d-0fb16db7af57",
+        "project_number": "B-12345678"
+      },
+      "material": {
+        "id": "12846b1c-2386-4bad-9a1d-4d422d7b4af4",
+        "code": 1234568,
+        "description": "item poste 123",
+        "unit": "CDA",
+        "type": "FERRAGEM"
+      }
+    },
+    {
+      "id": "314e2a89-cdbb-4a40-8da3-344ae0d5453a",
+      "createdAt": "2024-10-03T16:51:14.170Z",
+      "observation": "TESTE DE ENVIO",
+      "value": -75,
+      "base": {
+        "id": "dbe82710-e5e8-449a-ba49-471b356f808d",
+        "baseName": "Itaberaba"
+      },
+      "user": {
+        "id": "627a842b-eeee-42f2-b8aa-9a9fbdee0b83",
+        "name": "Rodrigo",
+        "email": "rodrigo1@ecoeletrica.com.br"
+      },
+      "project": {
+        "id": "30d2f9c4-decc-418a-bc5d-0fb16db7af57",
+        "project_number": "B-12345678"
+      },
+      "material": {
+        "id": "12846b1c-2386-4bad-9a1d-4d422d7b4af4",
+        "code": 1234568,
+        "description": "item poste 123",
+        "unit": "CDA",
+        "type": "FERRAGEM"
+      }
+    },
+    {
+      "id": "34c8de1d-7cd0-47cc-b4a4-54e9af80de43",
+      "createdAt": "2024-10-03T18:07:25.268Z",
+      "observation": "",
+      "value": -4,
+      "base": {
+        "id": "dbe82710-e5e8-449a-ba49-471b356f808d",
+        "baseName": "Itaberaba"
+      },
+      "user": {
+        "id": "627a842b-eeee-42f2-b8aa-9a9fbdee0b83",
+        "name": "Rodrigo",
+        "email": "rodrigo1@ecoeletrica.com.br"
+      },
+      "project": {
+        "id": "30d2f9c4-decc-418a-bc5d-0fb16db7af57",
+        "project_number": "B-12345678"
+      },
+      "material": {
+        "id": "12846b1c-2386-4bad-9a1d-4d422d7b4af4",
+        "code": 1234568,
+        "description": "item poste 123",
+        "unit": "CDA",
+        "type": "FERRAGEM"
+      }
+    },
+    {
+      "id": "ee5cbf27-8eb2-42a8-bfdb-647f9456ebd9",
+      "createdAt": "2024-10-03T16:56:33.824Z",
+      "observation": "",
+      "value": -75,
+      "base": {
+        "id": "dbe82710-e5e8-449a-ba49-471b356f808d",
+        "baseName": "Itaberaba"
+      },
+      "user": {
+        "id": "627a842b-eeee-42f2-b8aa-9a9fbdee0b83",
+        "name": "Rodrigo",
+        "email": "rodrigo1@ecoeletrica.com.br"
+      },
+      "project": {
+        "id": "30d2f9c4-decc-418a-bc5d-0fb16db7af57",
+        "project_number": "B-12345678"
+      },
+      "material": {
+        "id": "12846b1c-2386-4bad-9a1d-4d422d7b4af4",
+        "code": 1234568,
+        "description": "item poste 123",
+        "unit": "CDA",
+        "type": "FERRAGEM"
+      }
+    },
+    {
+      "id": "c532ff46-40df-465b-bbf0-b5c71d81fe9e",
+      "createdAt": "2024-10-03T17:00:12.763Z",
+      "observation": "",
+      "value": -75,
+      "base": {
+        "id": "dbe82710-e5e8-449a-ba49-471b356f808d",
+        "baseName": "Itaberaba"
+      },
+      "user": {
+        "id": "627a842b-eeee-42f2-b8aa-9a9fbdee0b83",
+        "name": "Rodrigo",
+        "email": "rodrigo1@ecoeletrica.com.br"
+      },
+      "project": {
+        "id": "30d2f9c4-decc-418a-bc5d-0fb16db7af57",
+        "project_number": "B-12345678"
+      },
+      "material": {
+        "id": "12846b1c-2386-4bad-9a1d-4d422d7b4af4",
+        "code": 1234568,
+        "description": "item poste 123",
+        "unit": "CDA",
+        "type": "FERRAGEM"
+      }
+    },
+    {
+      "id": "3409da74-1eaa-43da-87d0-6382c89d63f0",
+      "createdAt": "2024-10-03T17:03:07.126Z",
+      "observation": "",
+      "value": 75,
+      "base": {
+        "id": "dbe82710-e5e8-449a-ba49-471b356f808d",
+        "baseName": "Itaberaba"
+      },
+      "user": {
+        "id": "627a842b-eeee-42f2-b8aa-9a9fbdee0b83",
+        "name": "Rodrigo",
+        "email": "rodrigo1@ecoeletrica.com.br"
+      },
+      "project": {
+        "id": "30d2f9c4-decc-418a-bc5d-0fb16db7af57",
+        "project_number": "B-12345678"
+      },
+      "material": {
+        "id": "12846b1c-2386-4bad-9a1d-4d422d7b4af4",
+        "code": 1234568,
+        "description": "item poste 123",
+        "unit": "CDA",
+        "type": "FERRAGEM"
+      }
+    },
+    {
+      "id": "bbe56e1f-98dc-415c-863d-43b747468799",
+      "createdAt": "2024-10-03T16:55:12.666Z",
+      "observation": "",
+      "value": 75,
+      "base": {
+        "id": "dbe82710-e5e8-449a-ba49-471b356f808d",
+        "baseName": "Itaberaba"
+      },
+      "user": {
+        "id": "627a842b-eeee-42f2-b8aa-9a9fbdee0b83",
+        "name": "Rodrigo",
+        "email": "rodrigo1@ecoeletrica.com.br"
+      },
+      "project": {
+        "id": "30d2f9c4-decc-418a-bc5d-0fb16db7af57",
+        "project_number": "B-12345678"
+      },
+      "material": {
+        "id": "12846b1c-2386-4bad-9a1d-4d422d7b4af4",
+        "code": 1234568,
+        "description": "item poste 123",
+        "unit": "CDA",
+        "type": "FERRAGEM"
+      }
+    },
+    {
+      "id": "a75139fb-bd01-4979-b059-ccc197f113e1",
+      "createdAt": "2024-10-03T16:57:57.565Z",
+      "observation": "",
+      "value": 75,
+      "base": {
+        "id": "dbe82710-e5e8-449a-ba49-471b356f808d",
+        "baseName": "Itaberaba"
+      },
+      "user": {
+        "id": "627a842b-eeee-42f2-b8aa-9a9fbdee0b83",
+        "name": "Rodrigo",
+        "email": "rodrigo1@ecoeletrica.com.br"
+      },
+      "project": {
+        "id": "30d2f9c4-decc-418a-bc5d-0fb16db7af57",
+        "project_number": "B-12345678"
+      },
+      "material": {
+        "id": "12846b1c-2386-4bad-9a1d-4d422d7b4af4",
+        "code": 1234568,
+        "description": "item poste 123",
+        "unit": "CDA",
+        "type": "FERRAGEM"
+      }
+    },
+    {
+      "id": "788861ad-4d55-40f5-a598-4ffe175aaf90",
+      "createdAt": "2024-10-04T19:06:35.491Z",
+      "observation": "Material adicional - ADICIONALLLL",
+      "value": -27,
+      "base": {
+        "id": "dbe82710-e5e8-449a-ba49-471b356f808d",
+        "baseName": "Itaberaba"
+      },
+      "user": {
+        "id": "627a842b-eeee-42f2-b8aa-9a9fbdee0b83",
+        "name": "Rodrigo",
+        "email": "rodrigo1@ecoeletrica.com.br"
+      },
+      "project": {
+        "id": "30d2f9c4-decc-418a-bc5d-0fb16db7af57",
+        "project_number": "B-12345678"
+      },
+      "material": {
+        "id": "12846b1c-2386-4bad-9a1d-4d422d7b4af4",
+        "code": 1234568,
+        "description": "item poste 123",
+        "unit": "CDA",
+        "type": "FERRAGEM"
+      }
+    },
+    {
+      "id": "ef855db9-5b25-490b-8d16-503d6e2b75c0",
+      "createdAt": "2024-10-04T19:06:35.491Z",
+      "observation": "TESTANDO",
+      "value": -71,
+      "base": {
+        "id": "dbe82710-e5e8-449a-ba49-471b356f808d",
+        "baseName": "Itaberaba"
+      },
+      "user": {
+        "id": "627a842b-eeee-42f2-b8aa-9a9fbdee0b83",
+        "name": "Rodrigo",
+        "email": "rodrigo1@ecoeletrica.com.br"
+      },
+      "project": {
+        "id": "30d2f9c4-decc-418a-bc5d-0fb16db7af57",
+        "project_number": "B-12345678"
+      },
+      "material": {
+        "id": "12846b1c-2386-4bad-9a1d-4d422d7b4af4",
+        "code": 1234568,
+        "description": "item poste 123",
+        "unit": "CDA",
+        "type": "FERRAGEM"
+      }
+    },
+    {
+      "id": "27573be1-8642-4bb5-8fae-d33ec5d25db5",
+      "createdAt": "2024-09-27T18:18:32.350Z",
+      "observation": "",
+      "value": -2,
+      "base": {
+        "id": "dbe82710-e5e8-449a-ba49-471b356f808d",
+        "baseName": "Itaberaba"
+      },
+      "user": {
+        "id": "627a842b-eeee-42f2-b8aa-9a9fbdee0b83",
+        "name": "Rodrigo",
+        "email": "rodrigo1@ecoeletrica.com.br"
+      },
+      "project": {
+        "id": "30d2f9c4-decc-418a-bc5d-0fb16db7af57",
+        "project_number": "B-12345678"
+      },
+      "material": {
+        "id": "5eda8ee5-5706-4d15-a30d-203387a11a26",
+        "code": 1213131313,
+        "description": "TESTE",
+        "unit": "M",
+        "type": "FERRAGEM"
+      }
+    },
+    {
+      "id": "173090d3-e3d6-4dc2-a2dd-428e82aeaf5c",
+      "createdAt": "2024-10-01T12:55:48.680Z",
+      "observation": "",
+      "value": -10,
+      "base": {
+        "id": "dbe82710-e5e8-449a-ba49-471b356f808d",
+        "baseName": "Itaberaba"
+      },
+      "user": {
+        "id": "627a842b-eeee-42f2-b8aa-9a9fbdee0b83",
+        "name": "Rodrigo",
+        "email": "rodrigo1@ecoeletrica.com.br"
+      },
+      "project": {
+        "id": "30d2f9c4-decc-418a-bc5d-0fb16db7af57",
+        "project_number": "B-12345678"
+      },
+      "material": {
+        "id": "5eda8ee5-5706-4d15-a30d-203387a11a26",
+        "code": 1213131313,
+        "description": "TESTE",
+        "unit": "M",
+        "type": "FERRAGEM"
+      }
+    },
+    {
+      "id": "153bf940-f23c-4aee-94e0-8a8cacad67a3",
+      "createdAt": "2024-09-27T18:03:41.985Z",
+      "observation": "Material adicional - T",
+      "value": 22,
+      "base": {
+        "id": "dbe82710-e5e8-449a-ba49-471b356f808d",
+        "baseName": "Itaberaba"
+      },
+      "user": {
+        "id": "627a842b-eeee-42f2-b8aa-9a9fbdee0b83",
+        "name": "Rodrigo",
+        "email": "rodrigo1@ecoeletrica.com.br"
+      },
+      "project": {
+        "id": "30d2f9c4-decc-418a-bc5d-0fb16db7af57",
+        "project_number": "B-12345678"
+      },
+      "material": {
+        "id": "5eda8ee5-5706-4d15-a30d-203387a11a26",
+        "code": 1213131313,
+        "description": "TESTE",
+        "unit": "M",
+        "type": "FERRAGEM"
+      }
+    },
+    {
+      "id": "448b44e3-2d05-4d88-92d9-20942e269bee",
+      "createdAt": "2024-10-02T18:05:45.847Z",
+      "observation": "",
+      "value": 2,
+      "base": {
+        "id": "dbe82710-e5e8-449a-ba49-471b356f808d",
+        "baseName": "Itaberaba"
+      },
+      "user": {
+        "id": "627a842b-eeee-42f2-b8aa-9a9fbdee0b83",
+        "name": "Rodrigo",
+        "email": "rodrigo1@ecoeletrica.com.br"
+      },
+      "project": {
+        "id": "30d2f9c4-decc-418a-bc5d-0fb16db7af57",
+        "project_number": "B-12345678"
+      },
+      "material": {
+        "id": "5eda8ee5-5706-4d15-a30d-203387a11a26",
+        "code": 1213131313,
+        "description": "TESTE",
+        "unit": "M",
+        "type": "FERRAGEM"
+      }
+    },
+    {
+      "id": "51ecef45-fc44-4ffe-ba89-c0f35726a01e",
+      "createdAt": "2024-10-03T16:15:15.512Z",
+      "observation": "",
+      "value": -12,
+      "base": {
+        "id": "dbe82710-e5e8-449a-ba49-471b356f808d",
+        "baseName": "Itaberaba"
+      },
+      "user": {
+        "id": "627a842b-eeee-42f2-b8aa-9a9fbdee0b83",
+        "name": "Rodrigo",
+        "email": "rodrigo1@ecoeletrica.com.br"
+      },
+      "project": {
+        "id": "30d2f9c4-decc-418a-bc5d-0fb16db7af57",
+        "project_number": "B-12345678"
+      },
+      "material": {
+        "id": "5eda8ee5-5706-4d15-a30d-203387a11a26",
+        "code": 1213131313,
+        "description": "TESTE",
+        "unit": "M",
+        "type": "FERRAGEM"
+      }
+    },
+    {
+      "id": "bf9649f9-32f2-43f1-92eb-6d67d59e7ae4",
+      "createdAt": "2024-09-20T18:01:36.329Z",
+      "observation": "",
+      "value": -73,
+      "base": {
+        "id": "dbe82710-e5e8-449a-ba49-471b356f808d",
+        "baseName": "Itaberaba"
+      },
+      "user": {
+        "id": "627a842b-eeee-42f2-b8aa-9a9fbdee0b83",
+        "name": "Rodrigo",
+        "email": "rodrigo1@ecoeletrica.com.br"
+      },
+      "project": {
+        "id": "30d2f9c4-decc-418a-bc5d-0fb16db7af57",
+        "project_number": "B-12345678"
+      },
+      "material": {
+        "id": "7a7b5a91-e91a-4340-8a5f-5e1acdf502f8",
+        "code": 23456,
+        "description": "CRUZETA T 1900",
+        "unit": "CDA",
+        "type": "FERRAGEM"
+      }
+    },
+    {
+      "id": "2aa90471-4da8-43b1-af0f-31f3faacaec5",
+      "createdAt": "2024-08-09T18:46:08.577Z",
+      "observation": "nao sei das quantas",
+      "value": -1,
+      "base": {
+        "id": "dbe82710-e5e8-449a-ba49-471b356f808d",
+        "baseName": "Itaberaba"
+      },
+      "user": {
+        "id": "627a842b-eeee-42f2-b8aa-9a9fbdee0b83",
+        "name": "Rodrigo",
+        "email": "rodrigo1@ecoeletrica.com.br"
+      },
+      "project": {
+        "id": "30d2f9c4-decc-418a-bc5d-0fb16db7af57",
+        "project_number": "B-12345678"
+      },
+      "material": {
+        "id": "7a7b5a91-e91a-4340-8a5f-5e1acdf502f8",
+        "code": 23456,
+        "description": "CRUZETA T 1900",
+        "unit": "CDA",
+        "type": "FERRAGEM"
+      }
+    },
+    {
+      "id": "42280a81-24c4-422b-aec4-9c24bb8ff6c5",
+      "createdAt": "2024-08-21T13:41:12.856Z",
+      "observation": "nao sei das quantas",
+      "value": 2,
+      "base": {
+        "id": "dbe82710-e5e8-449a-ba49-471b356f808d",
+        "baseName": "Itaberaba"
+      },
+      "user": {
+        "id": "627a842b-eeee-42f2-b8aa-9a9fbdee0b83",
+        "name": "Rodrigo",
+        "email": "rodrigo1@ecoeletrica.com.br"
+      },
+      "project": {
+        "id": "30d2f9c4-decc-418a-bc5d-0fb16db7af57",
+        "project_number": "B-12345678"
+      },
+      "material": {
+        "id": "7a7b5a91-e91a-4340-8a5f-5e1acdf502f8",
+        "code": 23456,
+        "description": "CRUZETA T 1900",
+        "unit": "CDA",
+        "type": "FERRAGEM"
+      }
+    },
+    {
+      "id": "b7092054-99d4-49dd-9593-b790cff08200",
+      "createdAt": "2024-08-21T13:41:12.856Z",
+      "observation": "nao sei das quantas",
+      "value": -1,
+      "base": {
+        "id": "dbe82710-e5e8-449a-ba49-471b356f808d",
+        "baseName": "Itaberaba"
+      },
+      "user": {
+        "id": "627a842b-eeee-42f2-b8aa-9a9fbdee0b83",
+        "name": "Rodrigo",
+        "email": "rodrigo1@ecoeletrica.com.br"
+      },
+      "project": {
+        "id": "30d2f9c4-decc-418a-bc5d-0fb16db7af57",
+        "project_number": "B-12345678"
+      },
+      "material": {
+        "id": "7a7b5a91-e91a-4340-8a5f-5e1acdf502f8",
+        "code": 23456,
+        "description": "CRUZETA T 1900",
+        "unit": "CDA",
+        "type": "FERRAGEM"
+      }
+    },
+    {
+      "id": "d93f94b9-9c38-4304-89f3-ca7e2216b2da",
+      "createdAt": "2024-08-09T18:46:08.577Z",
+      "observation": "nao sei das quantas",
+      "value": 2,
+      "base": {
+        "id": "dbe82710-e5e8-449a-ba49-471b356f808d",
+        "baseName": "Itaberaba"
+      },
+      "user": {
+        "id": "627a842b-eeee-42f2-b8aa-9a9fbdee0b83",
+        "name": "Rodrigo",
+        "email": "rodrigo1@ecoeletrica.com.br"
+      },
+      "project": {
+        "id": "30d2f9c4-decc-418a-bc5d-0fb16db7af57",
+        "project_number": "B-12345678"
+      },
+      "material": {
+        "id": "7a7b5a91-e91a-4340-8a5f-5e1acdf502f8",
+        "code": 23456,
+        "description": "CRUZETA T 1900",
+        "unit": "CDA",
+        "type": "FERRAGEM"
+      }
+    },
+    {
+      "id": "78564a18-7b2b-4342-8abe-178c7d070e50",
+      "createdAt": "2024-08-28T12:10:22.241Z",
+      "observation": "nao sei das quantas",
+      "value": -1,
+      "base": {
+        "id": "dbe82710-e5e8-449a-ba49-471b356f808d",
+        "baseName": "Itaberaba"
+      },
+      "user": {
+        "id": "627a842b-eeee-42f2-b8aa-9a9fbdee0b83",
+        "name": "Rodrigo",
+        "email": "rodrigo1@ecoeletrica.com.br"
+      },
+      "project": {
+        "id": "30d2f9c4-decc-418a-bc5d-0fb16db7af57",
+        "project_number": "B-12345678"
+      },
+      "material": {
+        "id": "7a7b5a91-e91a-4340-8a5f-5e1acdf502f8",
+        "code": 23456,
+        "description": "CRUZETA T 1900",
+        "unit": "CDA",
+        "type": "FERRAGEM"
+      }
+    },
+    {
+      "id": "e0c09e8c-ff40-430d-9704-8c65cff41d39",
+      "createdAt": "2024-08-28T12:10:22.241Z",
+      "observation": "nao sei das quantas",
+      "value": -1,
+      "base": {
+        "id": "dbe82710-e5e8-449a-ba49-471b356f808d",
+        "baseName": "Itaberaba"
+      },
+      "user": {
+        "id": "627a842b-eeee-42f2-b8aa-9a9fbdee0b83",
+        "name": "Rodrigo",
+        "email": "rodrigo1@ecoeletrica.com.br"
+      },
+      "project": {
+        "id": "30d2f9c4-decc-418a-bc5d-0fb16db7af57",
+        "project_number": "B-12345678"
+      },
+      "material": {
+        "id": "7a7b5a91-e91a-4340-8a5f-5e1acdf502f8",
+        "code": 23456,
+        "description": "CRUZETA T 1900",
+        "unit": "CDA",
+        "type": "FERRAGEM"
+      }
+    },
+    {
+      "id": "a7143718-7a9b-4436-bea2-9dc7a1235201",
+      "createdAt": "2024-08-28T12:10:22.241Z",
+      "observation": "nao sei das quantas",
+      "value": -1,
+      "base": {
+        "id": "dbe82710-e5e8-449a-ba49-471b356f808d",
+        "baseName": "Itaberaba"
+      },
+      "user": {
+        "id": "627a842b-eeee-42f2-b8aa-9a9fbdee0b83",
+        "name": "Rodrigo",
+        "email": "rodrigo1@ecoeletrica.com.br"
+      },
+      "project": {
+        "id": "30d2f9c4-decc-418a-bc5d-0fb16db7af57",
+        "project_number": "B-12345678"
+      },
+      "material": {
+        "id": "7a7b5a91-e91a-4340-8a5f-5e1acdf502f8",
+        "code": 23456,
+        "description": "CRUZETA T 1900",
+        "unit": "CDA",
+        "type": "FERRAGEM"
+      }
+    },
+    {
+      "id": "7ecf0b69-e392-4574-9ea1-bab2edb32857",
+      "createdAt": "2024-08-28T12:10:22.241Z",
+      "observation": "nao sei das quantas",
+      "value": -1,
+      "base": {
+        "id": "dbe82710-e5e8-449a-ba49-471b356f808d",
+        "baseName": "Itaberaba"
+      },
+      "user": {
+        "id": "627a842b-eeee-42f2-b8aa-9a9fbdee0b83",
+        "name": "Rodrigo",
+        "email": "rodrigo1@ecoeletrica.com.br"
+      },
+      "project": {
+        "id": "30d2f9c4-decc-418a-bc5d-0fb16db7af57",
+        "project_number": "B-12345678"
+      },
+      "material": {
+        "id": "7a7b5a91-e91a-4340-8a5f-5e1acdf502f8",
+        "code": 23456,
+        "description": "CRUZETA T 1900",
+        "unit": "CDA",
+        "type": "FERRAGEM"
+      }
+    },
+    {
+      "id": "f64f7eb5-a543-40d4-8889-34ae5c58ceb8",
+      "createdAt": "2024-08-28T12:10:22.241Z",
+      "observation": "nao sei das quantas",
+      "value": -1,
+      "base": {
+        "id": "dbe82710-e5e8-449a-ba49-471b356f808d",
+        "baseName": "Itaberaba"
+      },
+      "user": {
+        "id": "627a842b-eeee-42f2-b8aa-9a9fbdee0b83",
+        "name": "Rodrigo",
+        "email": "rodrigo1@ecoeletrica.com.br"
+      },
+      "project": {
+        "id": "30d2f9c4-decc-418a-bc5d-0fb16db7af57",
+        "project_number": "B-12345678"
+      },
+      "material": {
+        "id": "7a7b5a91-e91a-4340-8a5f-5e1acdf502f8",
+        "code": 23456,
+        "description": "CRUZETA T 1900",
+        "unit": "CDA",
+        "type": "FERRAGEM"
+      }
+    },
+    {
+      "id": "2192046f-6304-4990-9a94-176894fa927b",
+      "createdAt": "2024-08-28T12:10:22.241Z",
+      "observation": "nao sei das quantas",
+      "value": -1,
+      "base": {
+        "id": "dbe82710-e5e8-449a-ba49-471b356f808d",
+        "baseName": "Itaberaba"
+      },
+      "user": {
+        "id": "627a842b-eeee-42f2-b8aa-9a9fbdee0b83",
+        "name": "Rodrigo",
+        "email": "rodrigo1@ecoeletrica.com.br"
+      },
+      "project": {
+        "id": "30d2f9c4-decc-418a-bc5d-0fb16db7af57",
+        "project_number": "B-12345678"
+      },
+      "material": {
+        "id": "7a7b5a91-e91a-4340-8a5f-5e1acdf502f8",
+        "code": 23456,
+        "description": "CRUZETA T 1900",
+        "unit": "CDA",
+        "type": "FERRAGEM"
+      }
+    },
+    {
+      "id": "ecf46a41-90dd-43e0-954a-5a316b9cd0d7",
+      "createdAt": "2024-08-28T12:10:22.241Z",
+      "observation": "nao sei das quantas",
+      "value": -1,
+      "base": {
+        "id": "dbe82710-e5e8-449a-ba49-471b356f808d",
+        "baseName": "Itaberaba"
+      },
+      "user": {
+        "id": "627a842b-eeee-42f2-b8aa-9a9fbdee0b83",
+        "name": "Rodrigo",
+        "email": "rodrigo1@ecoeletrica.com.br"
+      },
+      "project": {
+        "id": "30d2f9c4-decc-418a-bc5d-0fb16db7af57",
+        "project_number": "B-12345678"
+      },
+      "material": {
+        "id": "7a7b5a91-e91a-4340-8a5f-5e1acdf502f8",
+        "code": 23456,
+        "description": "CRUZETA T 1900",
+        "unit": "CDA",
+        "type": "FERRAGEM"
+      }
+    },
+    {
+      "id": "a518119b-e1ad-4d25-b608-a06cf8b9ad18",
+      "createdAt": "2024-08-28T12:10:22.241Z",
+      "observation": "nao sei das quantas",
+      "value": -1,
+      "base": {
+        "id": "dbe82710-e5e8-449a-ba49-471b356f808d",
+        "baseName": "Itaberaba"
+      },
+      "user": {
+        "id": "627a842b-eeee-42f2-b8aa-9a9fbdee0b83",
+        "name": "Rodrigo",
+        "email": "rodrigo1@ecoeletrica.com.br"
+      },
+      "project": {
+        "id": "30d2f9c4-decc-418a-bc5d-0fb16db7af57",
+        "project_number": "B-12345678"
+      },
+      "material": {
+        "id": "7a7b5a91-e91a-4340-8a5f-5e1acdf502f8",
+        "code": 23456,
+        "description": "CRUZETA T 1900",
+        "unit": "CDA",
+        "type": "FERRAGEM"
+      }
+    },
+    {
+      "id": "20792d7e-1329-413d-8113-3ff52d1c2e4e",
+      "createdAt": "2024-08-28T12:10:22.241Z",
+      "observation": "nao sei das quantas",
+      "value": -1,
+      "base": {
+        "id": "dbe82710-e5e8-449a-ba49-471b356f808d",
+        "baseName": "Itaberaba"
+      },
+      "user": {
+        "id": "627a842b-eeee-42f2-b8aa-9a9fbdee0b83",
+        "name": "Rodrigo",
+        "email": "rodrigo1@ecoeletrica.com.br"
+      },
+      "project": {
+        "id": "30d2f9c4-decc-418a-bc5d-0fb16db7af57",
+        "project_number": "B-12345678"
+      },
+      "material": {
+        "id": "7a7b5a91-e91a-4340-8a5f-5e1acdf502f8",
+        "code": 23456,
+        "description": "CRUZETA T 1900",
+        "unit": "CDA",
+        "type": "FERRAGEM"
+      }
+    },
+    {
+      "id": "d2dd6cb1-b948-49ba-98f3-1bc83ec49618",
+      "createdAt": "2024-08-28T12:10:22.241Z",
+      "observation": "nao sei das quantas",
+      "value": -1,
+      "base": {
+        "id": "dbe82710-e5e8-449a-ba49-471b356f808d",
+        "baseName": "Itaberaba"
+      },
+      "user": {
+        "id": "627a842b-eeee-42f2-b8aa-9a9fbdee0b83",
+        "name": "Rodrigo",
+        "email": "rodrigo1@ecoeletrica.com.br"
+      },
+      "project": {
+        "id": "30d2f9c4-decc-418a-bc5d-0fb16db7af57",
+        "project_number": "B-12345678"
+      },
+      "material": {
+        "id": "7a7b5a91-e91a-4340-8a5f-5e1acdf502f8",
+        "code": 23456,
+        "description": "CRUZETA T 1900",
+        "unit": "CDA",
+        "type": "FERRAGEM"
+      }
+    },
+    {
+      "id": "81235d30-3464-4527-b4fb-234ad07b5c85",
+      "createdAt": "2024-08-28T12:10:22.241Z",
+      "observation": "nao sei das quantas",
+      "value": -1,
+      "base": {
+        "id": "dbe82710-e5e8-449a-ba49-471b356f808d",
+        "baseName": "Itaberaba"
+      },
+      "user": {
+        "id": "627a842b-eeee-42f2-b8aa-9a9fbdee0b83",
+        "name": "Rodrigo",
+        "email": "rodrigo1@ecoeletrica.com.br"
+      },
+      "project": {
+        "id": "30d2f9c4-decc-418a-bc5d-0fb16db7af57",
+        "project_number": "B-12345678"
+      },
+      "material": {
+        "id": "7a7b5a91-e91a-4340-8a5f-5e1acdf502f8",
+        "code": 23456,
+        "description": "CRUZETA T 1900",
+        "unit": "CDA",
+        "type": "FERRAGEM"
+      }
+    },
+    {
+      "id": "fc72390c-65b5-4d20-b99d-bb99328afb3d",
+      "createdAt": "2024-08-28T12:10:22.241Z",
+      "observation": "nao sei das quantas",
+      "value": -1,
+      "base": {
+        "id": "dbe82710-e5e8-449a-ba49-471b356f808d",
+        "baseName": "Itaberaba"
+      },
+      "user": {
+        "id": "627a842b-eeee-42f2-b8aa-9a9fbdee0b83",
+        "name": "Rodrigo",
+        "email": "rodrigo1@ecoeletrica.com.br"
+      },
+      "project": {
+        "id": "30d2f9c4-decc-418a-bc5d-0fb16db7af57",
+        "project_number": "B-12345678"
+      },
+      "material": {
+        "id": "7a7b5a91-e91a-4340-8a5f-5e1acdf502f8",
+        "code": 23456,
+        "description": "CRUZETA T 1900",
+        "unit": "CDA",
+        "type": "FERRAGEM"
+      }
+    },
+    {
+      "id": "c5d675e9-6d3e-413e-9955-17099787c0b3",
+      "createdAt": "2024-08-28T12:10:22.241Z",
+      "observation": "nao sei das quantas",
+      "value": -1,
+      "base": {
+        "id": "dbe82710-e5e8-449a-ba49-471b356f808d",
+        "baseName": "Itaberaba"
+      },
+      "user": {
+        "id": "627a842b-eeee-42f2-b8aa-9a9fbdee0b83",
+        "name": "Rodrigo",
+        "email": "rodrigo1@ecoeletrica.com.br"
+      },
+      "project": {
+        "id": "30d2f9c4-decc-418a-bc5d-0fb16db7af57",
+        "project_number": "B-12345678"
+      },
+      "material": {
+        "id": "7a7b5a91-e91a-4340-8a5f-5e1acdf502f8",
+        "code": 23456,
+        "description": "CRUZETA T 1900",
+        "unit": "CDA",
+        "type": "FERRAGEM"
+      }
+    },
+    {
+      "id": "2b184f92-5b8d-461d-b6a7-7792550966c2",
+      "createdAt": "2024-08-28T12:10:22.241Z",
+      "observation": "nao sei das quantas",
+      "value": 5,
+      "base": {
+        "id": "dbe82710-e5e8-449a-ba49-471b356f808d",
+        "baseName": "Itaberaba"
+      },
+      "user": {
+        "id": "627a842b-eeee-42f2-b8aa-9a9fbdee0b83",
+        "name": "Rodrigo",
+        "email": "rodrigo1@ecoeletrica.com.br"
+      },
+      "project": {
+        "id": "30d2f9c4-decc-418a-bc5d-0fb16db7af57",
+        "project_number": "B-12345678"
+      },
+      "material": {
+        "id": "7a7b5a91-e91a-4340-8a5f-5e1acdf502f8",
+        "code": 23456,
+        "description": "CRUZETA T 1900",
+        "unit": "CDA",
+        "type": "FERRAGEM"
+      }
+    },
+    {
+      "id": "f742d5f6-e7b0-4e66-bb8f-0eb3d1797d19",
+      "createdAt": "2024-08-28T12:10:22.241Z",
+      "observation": "nao sei das quantas",
+      "value": 5,
+      "base": {
+        "id": "dbe82710-e5e8-449a-ba49-471b356f808d",
+        "baseName": "Itaberaba"
+      },
+      "user": {
+        "id": "627a842b-eeee-42f2-b8aa-9a9fbdee0b83",
+        "name": "Rodrigo",
+        "email": "rodrigo1@ecoeletrica.com.br"
+      },
+      "project": {
+        "id": "30d2f9c4-decc-418a-bc5d-0fb16db7af57",
+        "project_number": "B-12345678"
+      },
+      "material": {
+        "id": "7a7b5a91-e91a-4340-8a5f-5e1acdf502f8",
+        "code": 23456,
+        "description": "CRUZETA T 1900",
+        "unit": "CDA",
+        "type": "FERRAGEM"
+      }
+    },
+    {
+      "id": "38d662f0-b4c0-4066-bc80-34d37c7ca35b",
+      "createdAt": "2024-08-27T18:34:13.400Z",
+      "observation": "nao sei das quantas",
+      "value": 5,
+      "base": {
+        "id": "dbe82710-e5e8-449a-ba49-471b356f808d",
+        "baseName": "Itaberaba"
+      },
+      "user": {
+        "id": "627a842b-eeee-42f2-b8aa-9a9fbdee0b83",
+        "name": "Rodrigo",
+        "email": "rodrigo1@ecoeletrica.com.br"
+      },
+      "project": {
+        "id": "30d2f9c4-decc-418a-bc5d-0fb16db7af57",
+        "project_number": "B-12345678"
+      },
+      "material": {
+        "id": "7a7b5a91-e91a-4340-8a5f-5e1acdf502f8",
+        "code": 23456,
+        "description": "CRUZETA T 1900",
+        "unit": "CDA",
+        "type": "FERRAGEM"
+      }
+    },
+    {
+      "id": "e0805f27-dcb6-46ff-bfa1-4b6eba4dccad",
+      "createdAt": "2024-08-28T12:10:22.241Z",
+      "observation": "nao sei das quantas",
+      "value": 5,
+      "base": {
+        "id": "dbe82710-e5e8-449a-ba49-471b356f808d",
+        "baseName": "Itaberaba"
+      },
+      "user": {
+        "id": "627a842b-eeee-42f2-b8aa-9a9fbdee0b83",
+        "name": "Rodrigo",
+        "email": "rodrigo1@ecoeletrica.com.br"
+      },
+      "project": {
+        "id": "30d2f9c4-decc-418a-bc5d-0fb16db7af57",
+        "project_number": "B-12345678"
+      },
+      "material": {
+        "id": "7a7b5a91-e91a-4340-8a5f-5e1acdf502f8",
+        "code": 23456,
+        "description": "CRUZETA T 1900",
+        "unit": "CDA",
+        "type": "FERRAGEM"
+      }
+    },
+    {
+      "id": "3856069b-0931-49b0-acf5-8a21a91654a5",
+      "createdAt": "2024-08-28T12:10:22.241Z",
+      "observation": "nao sei das quantas",
+      "value": 5,
+      "base": {
+        "id": "dbe82710-e5e8-449a-ba49-471b356f808d",
+        "baseName": "Itaberaba"
+      },
+      "user": {
+        "id": "627a842b-eeee-42f2-b8aa-9a9fbdee0b83",
+        "name": "Rodrigo",
+        "email": "rodrigo1@ecoeletrica.com.br"
+      },
+      "project": {
+        "id": "30d2f9c4-decc-418a-bc5d-0fb16db7af57",
+        "project_number": "B-12345678"
+      },
+      "material": {
+        "id": "7a7b5a91-e91a-4340-8a5f-5e1acdf502f8",
+        "code": 23456,
+        "description": "CRUZETA T 1900",
+        "unit": "CDA",
+        "type": "FERRAGEM"
+      }
+    },
+    {
+      "id": "7fcb60b1-8f17-4392-8311-c305d49354c1",
+      "createdAt": "2024-08-28T12:10:22.241Z",
+      "observation": "nao sei das quantas",
+      "value": 5,
+      "base": {
+        "id": "dbe82710-e5e8-449a-ba49-471b356f808d",
+        "baseName": "Itaberaba"
+      },
+      "user": {
+        "id": "627a842b-eeee-42f2-b8aa-9a9fbdee0b83",
+        "name": "Rodrigo",
+        "email": "rodrigo1@ecoeletrica.com.br"
+      },
+      "project": {
+        "id": "30d2f9c4-decc-418a-bc5d-0fb16db7af57",
+        "project_number": "B-12345678"
+      },
+      "material": {
+        "id": "7a7b5a91-e91a-4340-8a5f-5e1acdf502f8",
+        "code": 23456,
+        "description": "CRUZETA T 1900",
+        "unit": "CDA",
+        "type": "FERRAGEM"
+      }
+    },
+    {
+      "id": "5440d538-96b3-46bf-94b4-bde2522e4414",
+      "createdAt": "2024-08-28T12:10:22.241Z",
+      "observation": "nao sei das quantas",
+      "value": 5,
+      "base": {
+        "id": "dbe82710-e5e8-449a-ba49-471b356f808d",
+        "baseName": "Itaberaba"
+      },
+      "user": {
+        "id": "627a842b-eeee-42f2-b8aa-9a9fbdee0b83",
+        "name": "Rodrigo",
+        "email": "rodrigo1@ecoeletrica.com.br"
+      },
+      "project": {
+        "id": "30d2f9c4-decc-418a-bc5d-0fb16db7af57",
+        "project_number": "B-12345678"
+      },
+      "material": {
+        "id": "7a7b5a91-e91a-4340-8a5f-5e1acdf502f8",
+        "code": 23456,
+        "description": "CRUZETA T 1900",
+        "unit": "CDA",
+        "type": "FERRAGEM"
+      }
+    },
+    {
+      "id": "43cf1875-601a-43a0-8af5-c09e938a27d5",
+      "createdAt": "2024-08-28T12:10:22.241Z",
+      "observation": "nao sei das quantas",
+      "value": 5,
+      "base": {
+        "id": "dbe82710-e5e8-449a-ba49-471b356f808d",
+        "baseName": "Itaberaba"
+      },
+      "user": {
+        "id": "627a842b-eeee-42f2-b8aa-9a9fbdee0b83",
+        "name": "Rodrigo",
+        "email": "rodrigo1@ecoeletrica.com.br"
+      },
+      "project": {
+        "id": "30d2f9c4-decc-418a-bc5d-0fb16db7af57",
+        "project_number": "B-12345678"
+      },
+      "material": {
+        "id": "7a7b5a91-e91a-4340-8a5f-5e1acdf502f8",
+        "code": 23456,
+        "description": "CRUZETA T 1900",
+        "unit": "CDA",
+        "type": "FERRAGEM"
+      }
+    },
+    {
+      "id": "e035822c-f822-4df0-a97b-a2c11bfb4eaf",
+      "createdAt": "2024-08-28T12:10:22.241Z",
+      "observation": "nao sei das quantas",
+      "value": 5,
+      "base": {
+        "id": "dbe82710-e5e8-449a-ba49-471b356f808d",
+        "baseName": "Itaberaba"
+      },
+      "user": {
+        "id": "627a842b-eeee-42f2-b8aa-9a9fbdee0b83",
+        "name": "Rodrigo",
+        "email": "rodrigo1@ecoeletrica.com.br"
+      },
+      "project": {
+        "id": "30d2f9c4-decc-418a-bc5d-0fb16db7af57",
+        "project_number": "B-12345678"
+      },
+      "material": {
+        "id": "7a7b5a91-e91a-4340-8a5f-5e1acdf502f8",
+        "code": 23456,
+        "description": "CRUZETA T 1900",
+        "unit": "CDA",
+        "type": "FERRAGEM"
+      }
+    },
+    {
+      "id": "45258659-06c7-40e5-954a-19a0323e2fef",
+      "createdAt": "2024-08-28T12:10:22.241Z",
+      "observation": "nao sei das quantas",
+      "value": 5,
+      "base": {
+        "id": "dbe82710-e5e8-449a-ba49-471b356f808d",
+        "baseName": "Itaberaba"
+      },
+      "user": {
+        "id": "627a842b-eeee-42f2-b8aa-9a9fbdee0b83",
+        "name": "Rodrigo",
+        "email": "rodrigo1@ecoeletrica.com.br"
+      },
+      "project": {
+        "id": "30d2f9c4-decc-418a-bc5d-0fb16db7af57",
+        "project_number": "B-12345678"
+      },
+      "material": {
+        "id": "7a7b5a91-e91a-4340-8a5f-5e1acdf502f8",
+        "code": 23456,
+        "description": "CRUZETA T 1900",
+        "unit": "CDA",
+        "type": "FERRAGEM"
+      }
+    },
+    {
+      "id": "0af75c64-a002-4789-aa5a-4fd1f2629374",
+      "createdAt": "2024-08-28T12:10:22.241Z",
+      "observation": "nao sei das quantas",
+      "value": 5,
+      "base": {
+        "id": "dbe82710-e5e8-449a-ba49-471b356f808d",
+        "baseName": "Itaberaba"
+      },
+      "user": {
+        "id": "627a842b-eeee-42f2-b8aa-9a9fbdee0b83",
+        "name": "Rodrigo",
+        "email": "rodrigo1@ecoeletrica.com.br"
+      },
+      "project": {
+        "id": "30d2f9c4-decc-418a-bc5d-0fb16db7af57",
+        "project_number": "B-12345678"
+      },
+      "material": {
+        "id": "7a7b5a91-e91a-4340-8a5f-5e1acdf502f8",
+        "code": 23456,
+        "description": "CRUZETA T 1900",
+        "unit": "CDA",
+        "type": "FERRAGEM"
+      }
+    },
+    {
+      "id": "ff5d5a5b-ab12-43a3-8e4e-8891a04eeb31",
+      "createdAt": "2024-08-28T12:10:22.241Z",
+      "observation": "nao sei das quantas",
+      "value": 5,
+      "base": {
+        "id": "dbe82710-e5e8-449a-ba49-471b356f808d",
+        "baseName": "Itaberaba"
+      },
+      "user": {
+        "id": "627a842b-eeee-42f2-b8aa-9a9fbdee0b83",
+        "name": "Rodrigo",
+        "email": "rodrigo1@ecoeletrica.com.br"
+      },
+      "project": {
+        "id": "30d2f9c4-decc-418a-bc5d-0fb16db7af57",
+        "project_number": "B-12345678"
+      },
+      "material": {
+        "id": "7a7b5a91-e91a-4340-8a5f-5e1acdf502f8",
+        "code": 23456,
+        "description": "CRUZETA T 1900",
+        "unit": "CDA",
+        "type": "FERRAGEM"
+      }
+    },
+    {
+      "id": "21bde1a7-b5b4-4158-8d5d-f7345ff4a179",
+      "createdAt": "2024-08-28T12:10:22.241Z",
+      "observation": "nao sei das quantas",
+      "value": 5,
+      "base": {
+        "id": "dbe82710-e5e8-449a-ba49-471b356f808d",
+        "baseName": "Itaberaba"
+      },
+      "user": {
+        "id": "627a842b-eeee-42f2-b8aa-9a9fbdee0b83",
+        "name": "Rodrigo",
+        "email": "rodrigo1@ecoeletrica.com.br"
+      },
+      "project": {
+        "id": "30d2f9c4-decc-418a-bc5d-0fb16db7af57",
+        "project_number": "B-12345678"
+      },
+      "material": {
+        "id": "7a7b5a91-e91a-4340-8a5f-5e1acdf502f8",
+        "code": 23456,
+        "description": "CRUZETA T 1900",
+        "unit": "CDA",
+        "type": "FERRAGEM"
+      }
+    },
+    {
+      "id": "67924af0-e349-4406-8eed-242beac17149",
+      "createdAt": "2024-08-28T12:10:22.241Z",
+      "observation": "nao sei das quantas",
+      "value": 5,
+      "base": {
+        "id": "dbe82710-e5e8-449a-ba49-471b356f808d",
+        "baseName": "Itaberaba"
+      },
+      "user": {
+        "id": "627a842b-eeee-42f2-b8aa-9a9fbdee0b83",
+        "name": "Rodrigo",
+        "email": "rodrigo1@ecoeletrica.com.br"
+      },
+      "project": {
+        "id": "30d2f9c4-decc-418a-bc5d-0fb16db7af57",
+        "project_number": "B-12345678"
+      },
+      "material": {
+        "id": "7a7b5a91-e91a-4340-8a5f-5e1acdf502f8",
+        "code": 23456,
+        "description": "CRUZETA T 1900",
+        "unit": "CDA",
+        "type": "FERRAGEM"
+      }
+    },
+    {
+      "id": "a7afe72d-3f63-49c4-9bb3-e711cea8da81",
+      "createdAt": "2024-08-28T12:10:22.241Z",
+      "observation": "nao sei das quantas",
+      "value": 2,
+      "base": {
+        "id": "dbe82710-e5e8-449a-ba49-471b356f808d",
+        "baseName": "Itaberaba"
+      },
+      "user": {
+        "id": "627a842b-eeee-42f2-b8aa-9a9fbdee0b83",
+        "name": "Rodrigo",
+        "email": "rodrigo1@ecoeletrica.com.br"
+      },
+      "project": {
+        "id": "30d2f9c4-decc-418a-bc5d-0fb16db7af57",
+        "project_number": "B-12345678"
+      },
+      "material": {
+        "id": "7a7b5a91-e91a-4340-8a5f-5e1acdf502f8",
+        "code": 23456,
+        "description": "CRUZETA T 1900",
+        "unit": "CDA",
+        "type": "FERRAGEM"
+      }
+    },
+    {
+      "id": "c2a71513-f2ac-4c3e-b306-738e77e6f694",
+      "createdAt": "2024-08-28T12:10:22.241Z",
+      "observation": "nao sei das quantas",
+      "value": 2,
+      "base": {
+        "id": "dbe82710-e5e8-449a-ba49-471b356f808d",
+        "baseName": "Itaberaba"
+      },
+      "user": {
+        "id": "627a842b-eeee-42f2-b8aa-9a9fbdee0b83",
+        "name": "Rodrigo",
+        "email": "rodrigo1@ecoeletrica.com.br"
+      },
+      "project": {
+        "id": "30d2f9c4-decc-418a-bc5d-0fb16db7af57",
+        "project_number": "B-12345678"
+      },
+      "material": {
+        "id": "7a7b5a91-e91a-4340-8a5f-5e1acdf502f8",
+        "code": 23456,
+        "description": "CRUZETA T 1900",
+        "unit": "CDA",
+        "type": "FERRAGEM"
+      }
+    },
+    {
+      "id": "f91ac8e5-32a0-4d4c-aa90-a2da540f0521",
+      "createdAt": "2024-08-28T12:10:22.241Z",
+      "observation": "nao sei das quantas",
+      "value": 2,
+      "base": {
+        "id": "dbe82710-e5e8-449a-ba49-471b356f808d",
+        "baseName": "Itaberaba"
+      },
+      "user": {
+        "id": "627a842b-eeee-42f2-b8aa-9a9fbdee0b83",
+        "name": "Rodrigo",
+        "email": "rodrigo1@ecoeletrica.com.br"
+      },
+      "project": {
+        "id": "30d2f9c4-decc-418a-bc5d-0fb16db7af57",
+        "project_number": "B-12345678"
+      },
+      "material": {
+        "id": "7a7b5a91-e91a-4340-8a5f-5e1acdf502f8",
+        "code": 23456,
+        "description": "CRUZETA T 1900",
+        "unit": "CDA",
+        "type": "FERRAGEM"
+      }
+    },
+    {
+      "id": "5396b09c-6f21-4798-ac1d-2505986bd627",
+      "createdAt": "2024-08-28T12:10:22.241Z",
+      "observation": "nao sei das quantas",
+      "value": 2,
+      "base": {
+        "id": "dbe82710-e5e8-449a-ba49-471b356f808d",
+        "baseName": "Itaberaba"
+      },
+      "user": {
+        "id": "627a842b-eeee-42f2-b8aa-9a9fbdee0b83",
+        "name": "Rodrigo",
+        "email": "rodrigo1@ecoeletrica.com.br"
+      },
+      "project": {
+        "id": "30d2f9c4-decc-418a-bc5d-0fb16db7af57",
+        "project_number": "B-12345678"
+      },
+      "material": {
+        "id": "7a7b5a91-e91a-4340-8a5f-5e1acdf502f8",
+        "code": 23456,
+        "description": "CRUZETA T 1900",
+        "unit": "CDA",
+        "type": "FERRAGEM"
+      }
+    },
+    {
+      "id": "0e0226b3-cd64-47d7-b28c-d1c6295485df",
+      "createdAt": "2024-08-28T12:10:22.241Z",
+      "observation": "nao sei das quantas",
+      "value": 2,
+      "base": {
+        "id": "dbe82710-e5e8-449a-ba49-471b356f808d",
+        "baseName": "Itaberaba"
+      },
+      "user": {
+        "id": "627a842b-eeee-42f2-b8aa-9a9fbdee0b83",
+        "name": "Rodrigo",
+        "email": "rodrigo1@ecoeletrica.com.br"
+      },
+      "project": {
+        "id": "30d2f9c4-decc-418a-bc5d-0fb16db7af57",
+        "project_number": "B-12345678"
+      },
+      "material": {
+        "id": "7a7b5a91-e91a-4340-8a5f-5e1acdf502f8",
+        "code": 23456,
+        "description": "CRUZETA T 1900",
+        "unit": "CDA",
+        "type": "FERRAGEM"
+      }
+    },
+    {
+      "id": "b15472d3-696e-41c8-b575-2ab5fafb1a1e",
+      "createdAt": "2024-08-28T12:10:22.241Z",
+      "observation": "nao sei das quantas",
+      "value": 2,
+      "base": {
+        "id": "dbe82710-e5e8-449a-ba49-471b356f808d",
+        "baseName": "Itaberaba"
+      },
+      "user": {
+        "id": "627a842b-eeee-42f2-b8aa-9a9fbdee0b83",
+        "name": "Rodrigo",
+        "email": "rodrigo1@ecoeletrica.com.br"
+      },
+      "project": {
+        "id": "30d2f9c4-decc-418a-bc5d-0fb16db7af57",
+        "project_number": "B-12345678"
+      },
+      "material": {
+        "id": "7a7b5a91-e91a-4340-8a5f-5e1acdf502f8",
+        "code": 23456,
+        "description": "CRUZETA T 1900",
+        "unit": "CDA",
+        "type": "FERRAGEM"
+      }
+    },
+    {
+      "id": "bcee1261-a473-42c2-a682-8185d51dae67",
+      "createdAt": "2024-08-28T12:10:22.241Z",
+      "observation": "nao sei das quantas",
+      "value": 2,
+      "base": {
+        "id": "dbe82710-e5e8-449a-ba49-471b356f808d",
+        "baseName": "Itaberaba"
+      },
+      "user": {
+        "id": "627a842b-eeee-42f2-b8aa-9a9fbdee0b83",
+        "name": "Rodrigo",
+        "email": "rodrigo1@ecoeletrica.com.br"
+      },
+      "project": {
+        "id": "30d2f9c4-decc-418a-bc5d-0fb16db7af57",
+        "project_number": "B-12345678"
+      },
+      "material": {
+        "id": "7a7b5a91-e91a-4340-8a5f-5e1acdf502f8",
+        "code": 23456,
+        "description": "CRUZETA T 1900",
+        "unit": "CDA",
+        "type": "FERRAGEM"
+      }
+    },
+    {
+      "id": "66d8e50f-d2f1-4bb9-9d3d-50bcc8d88bff",
+      "createdAt": "2024-08-28T12:10:22.241Z",
+      "observation": "nao sei das quantas",
+      "value": 2,
+      "base": {
+        "id": "dbe82710-e5e8-449a-ba49-471b356f808d",
+        "baseName": "Itaberaba"
+      },
+      "user": {
+        "id": "627a842b-eeee-42f2-b8aa-9a9fbdee0b83",
+        "name": "Rodrigo",
+        "email": "rodrigo1@ecoeletrica.com.br"
+      },
+      "project": {
+        "id": "30d2f9c4-decc-418a-bc5d-0fb16db7af57",
+        "project_number": "B-12345678"
+      },
+      "material": {
+        "id": "7a7b5a91-e91a-4340-8a5f-5e1acdf502f8",
+        "code": 23456,
+        "description": "CRUZETA T 1900",
+        "unit": "CDA",
+        "type": "FERRAGEM"
+      }
+    },
+    {
+      "id": "c49666fb-5bd7-4557-b5a9-349cf7ac7203",
+      "createdAt": "2024-08-28T12:10:22.241Z",
+      "observation": "nao sei das quantas",
+      "value": 2,
+      "base": {
+        "id": "dbe82710-e5e8-449a-ba49-471b356f808d",
+        "baseName": "Itaberaba"
+      },
+      "user": {
+        "id": "627a842b-eeee-42f2-b8aa-9a9fbdee0b83",
+        "name": "Rodrigo",
+        "email": "rodrigo1@ecoeletrica.com.br"
+      },
+      "project": {
+        "id": "30d2f9c4-decc-418a-bc5d-0fb16db7af57",
+        "project_number": "B-12345678"
+      },
+      "material": {
+        "id": "7a7b5a91-e91a-4340-8a5f-5e1acdf502f8",
+        "code": 23456,
+        "description": "CRUZETA T 1900",
+        "unit": "CDA",
+        "type": "FERRAGEM"
+      }
+    },
+    {
+      "id": "45c05e74-22f8-4761-b7af-c8fe6bceb3c1",
+      "createdAt": "2024-08-28T12:10:22.241Z",
+      "observation": "nao sei das quantas",
+      "value": 2,
+      "base": {
+        "id": "dbe82710-e5e8-449a-ba49-471b356f808d",
+        "baseName": "Itaberaba"
+      },
+      "user": {
+        "id": "627a842b-eeee-42f2-b8aa-9a9fbdee0b83",
+        "name": "Rodrigo",
+        "email": "rodrigo1@ecoeletrica.com.br"
+      },
+      "project": {
+        "id": "30d2f9c4-decc-418a-bc5d-0fb16db7af57",
+        "project_number": "B-12345678"
+      },
+      "material": {
+        "id": "7a7b5a91-e91a-4340-8a5f-5e1acdf502f8",
+        "code": 23456,
+        "description": "CRUZETA T 1900",
+        "unit": "CDA",
+        "type": "FERRAGEM"
+      }
+    },
+    {
+      "id": "deb261ab-424d-4c98-a555-c8bdef89126e",
+      "createdAt": "2024-08-28T12:10:22.241Z",
+      "observation": "nao sei das quantas",
+      "value": 2,
+      "base": {
+        "id": "dbe82710-e5e8-449a-ba49-471b356f808d",
+        "baseName": "Itaberaba"
+      },
+      "user": {
+        "id": "627a842b-eeee-42f2-b8aa-9a9fbdee0b83",
+        "name": "Rodrigo",
+        "email": "rodrigo1@ecoeletrica.com.br"
+      },
+      "project": {
+        "id": "30d2f9c4-decc-418a-bc5d-0fb16db7af57",
+        "project_number": "B-12345678"
+      },
+      "material": {
+        "id": "7a7b5a91-e91a-4340-8a5f-5e1acdf502f8",
+        "code": 23456,
+        "description": "CRUZETA T 1900",
+        "unit": "CDA",
+        "type": "FERRAGEM"
+      }
+    },
+    {
+      "id": "baacca0d-edfc-4a62-a80c-bc1a16ff74c5",
+      "createdAt": "2024-08-28T12:10:22.241Z",
+      "observation": "nao sei das quantas",
+      "value": 2,
+      "base": {
+        "id": "dbe82710-e5e8-449a-ba49-471b356f808d",
+        "baseName": "Itaberaba"
+      },
+      "user": {
+        "id": "627a842b-eeee-42f2-b8aa-9a9fbdee0b83",
+        "name": "Rodrigo",
+        "email": "rodrigo1@ecoeletrica.com.br"
+      },
+      "project": {
+        "id": "30d2f9c4-decc-418a-bc5d-0fb16db7af57",
+        "project_number": "B-12345678"
+      },
+      "material": {
+        "id": "7a7b5a91-e91a-4340-8a5f-5e1acdf502f8",
+        "code": 23456,
+        "description": "CRUZETA T 1900",
+        "unit": "CDA",
+        "type": "FERRAGEM"
+      }
+    },
+    {
+      "id": "514bd1b5-1c31-488e-af3c-9fb33b086735",
+      "createdAt": "2024-08-28T12:10:22.241Z",
+      "observation": "nao sei das quantas",
+      "value": 2,
+      "base": {
+        "id": "dbe82710-e5e8-449a-ba49-471b356f808d",
+        "baseName": "Itaberaba"
+      },
+      "user": {
+        "id": "627a842b-eeee-42f2-b8aa-9a9fbdee0b83",
+        "name": "Rodrigo",
+        "email": "rodrigo1@ecoeletrica.com.br"
+      },
+      "project": {
+        "id": "30d2f9c4-decc-418a-bc5d-0fb16db7af57",
+        "project_number": "B-12345678"
+      },
+      "material": {
+        "id": "7a7b5a91-e91a-4340-8a5f-5e1acdf502f8",
+        "code": 23456,
+        "description": "CRUZETA T 1900",
+        "unit": "CDA",
+        "type": "FERRAGEM"
+      }
+    },
+    {
+      "id": "68ecaab2-2a54-4334-8dd0-c46dd932cc0a",
+      "createdAt": "2024-10-03T16:15:39.934Z",
+      "observation": "",
+      "value": -12,
+      "base": {
+        "id": "dbe82710-e5e8-449a-ba49-471b356f808d",
+        "baseName": "Itaberaba"
+      },
+      "user": {
+        "id": "627a842b-eeee-42f2-b8aa-9a9fbdee0b83",
+        "name": "Rodrigo",
+        "email": "rodrigo1@ecoeletrica.com.br"
+      },
+      "project": {
+        "id": "30d2f9c4-decc-418a-bc5d-0fb16db7af57",
+        "project_number": "B-12345678"
+      },
+      "material": {
+        "id": "7a7b5a91-e91a-4340-8a5f-5e1acdf502f8",
+        "code": 23456,
+        "description": "CRUZETA T 1900",
+        "unit": "CDA",
+        "type": "FERRAGEM"
+      }
+    },
+    {
+      "id": "2ee4ecc8-9314-4d46-9064-9d700b876a64",
+      "createdAt": "2024-09-19T19:49:08.467Z",
+      "observation": "",
+      "value": 44,
+      "base": {
+        "id": "dbe82710-e5e8-449a-ba49-471b356f808d",
+        "baseName": "Itaberaba"
+      },
+      "user": {
+        "id": "627a842b-eeee-42f2-b8aa-9a9fbdee0b83",
+        "name": "Rodrigo",
+        "email": "rodrigo1@ecoeletrica.com.br"
+      },
+      "project": {
+        "id": "30d2f9c4-decc-418a-bc5d-0fb16db7af57",
+        "project_number": "B-12345678"
+      },
+      "material": {
+        "id": "b21ba24a-b752-4415-9fc4-702ec851c5cf",
+        "code": 123456,
+        "description": "CABO 4/0",
+        "unit": "CDA",
+        "type": "FERRAGEM"
+      }
+    },
+    {
+      "id": "f496212f-0d05-4803-8b3c-9821a117ba69",
+      "createdAt": "2024-09-23T11:01:56.705Z",
+      "observation": "",
+      "value": 50,
+      "base": {
+        "id": "dbe82710-e5e8-449a-ba49-471b356f808d",
+        "baseName": "Itaberaba"
+      },
+      "user": {
+        "id": "627a842b-eeee-42f2-b8aa-9a9fbdee0b83",
+        "name": "Rodrigo",
+        "email": "rodrigo1@ecoeletrica.com.br"
+      },
+      "project": {
+        "id": "30d2f9c4-decc-418a-bc5d-0fb16db7af57",
+        "project_number": "B-12345678"
+      },
+      "material": {
+        "id": "b21ba24a-b752-4415-9fc4-702ec851c5cf",
+        "code": 123456,
+        "description": "CABO 4/0",
+        "unit": "CDA",
+        "type": "FERRAGEM"
+      }
+    },
+    {
+      "id": "d630fd5e-f9db-485f-a60d-9c9e9605395a",
+      "createdAt": "2024-09-26T12:53:49.253Z",
+      "observation": "",
+      "value": -148,
+      "base": {
+        "id": "dbe82710-e5e8-449a-ba49-471b356f808d",
+        "baseName": "Itaberaba"
+      },
+      "user": {
+        "id": "627a842b-eeee-42f2-b8aa-9a9fbdee0b83",
+        "name": "Rodrigo",
+        "email": "rodrigo1@ecoeletrica.com.br"
+      },
+      "project": {
+        "id": "30d2f9c4-decc-418a-bc5d-0fb16db7af57",
+        "project_number": "B-12345678"
+      },
+      "material": {
+        "id": "b21ba24a-b752-4415-9fc4-702ec851c5cf",
+        "code": 123456,
+        "description": "CABO 4/0",
+        "unit": "CDA",
+        "type": "FERRAGEM"
+      }
+    },
+    {
+      "id": "c21d5bef-f8fd-457d-8b62-3891da3f2957",
+      "createdAt": "2024-10-01T13:03:59.147Z",
+      "observation": "",
+      "value": 2,
+      "base": {
+        "id": "dbe82710-e5e8-449a-ba49-471b356f808d",
+        "baseName": "Itaberaba"
+      },
+      "user": {
+        "id": "627a842b-eeee-42f2-b8aa-9a9fbdee0b83",
+        "name": "Rodrigo",
+        "email": "rodrigo1@ecoeletrica.com.br"
+      },
+      "project": {
+        "id": "30d2f9c4-decc-418a-bc5d-0fb16db7af57",
+        "project_number": "B-12345678"
+      },
+      "material": {
+        "id": "b21ba24a-b752-4415-9fc4-702ec851c5cf",
+        "code": 123456,
+        "description": "CABO 4/0",
+        "unit": "CDA",
+        "type": "FERRAGEM"
+      }
+    },
+    {
+      "id": "85077fdc-2933-4918-a6e2-63b956986fb4",
+      "createdAt": "2024-10-01T13:06:21.352Z",
+      "observation": "",
+      "value": 2,
+      "base": {
+        "id": "dbe82710-e5e8-449a-ba49-471b356f808d",
+        "baseName": "Itaberaba"
+      },
+      "user": {
+        "id": "627a842b-eeee-42f2-b8aa-9a9fbdee0b83",
+        "name": "Rodrigo",
+        "email": "rodrigo1@ecoeletrica.com.br"
+      },
+      "project": {
+        "id": "30d2f9c4-decc-418a-bc5d-0fb16db7af57",
+        "project_number": "B-12345678"
+      },
+      "material": {
+        "id": "b21ba24a-b752-4415-9fc4-702ec851c5cf",
+        "code": 123456,
+        "description": "CABO 4/0",
+        "unit": "CDA",
+        "type": "FERRAGEM"
+      }
+    },
+    {
+      "id": "0faa0230-033f-4b14-a24b-bbfe0d26d6fe",
+      "createdAt": "2024-09-19T20:04:40.766Z",
+      "observation": "Teste normal",
+      "value": 20,
+      "base": {
+        "id": "dbe82710-e5e8-449a-ba49-471b356f808d",
+        "baseName": "Itaberaba"
+      },
+      "user": {
+        "id": "627a842b-eeee-42f2-b8aa-9a9fbdee0b83",
+        "name": "Rodrigo",
+        "email": "rodrigo1@ecoeletrica.com.br"
+      },
+      "project": {
+        "id": "30d2f9c4-decc-418a-bc5d-0fb16db7af57",
+        "project_number": "B-12345678"
+      },
+      "material": {
+        "id": "b21ba24a-b752-4415-9fc4-702ec851c5cf",
+        "code": 123456,
+        "description": "CABO 4/0",
+        "unit": "CDA",
+        "type": "FERRAGEM"
+      }
+    },
+    {
+      "id": "81569bd9-36b7-4c4e-969a-e3183317403b",
+      "createdAt": "2024-08-14T17:44:44.763Z",
+      "observation": "Num sei das quantas",
+      "value": -3,
+      "base": {
+        "id": "dbe82710-e5e8-449a-ba49-471b356f808d",
+        "baseName": "Itaberaba"
+      },
+      "user": {
+        "id": "627a842b-eeee-42f2-b8aa-9a9fbdee0b83",
+        "name": "Rodrigo",
+        "email": "rodrigo1@ecoeletrica.com.br"
+      },
+      "project": {
+        "id": "30d2f9c4-decc-418a-bc5d-0fb16db7af57",
+        "project_number": "B-12345678"
+      },
+      "material": {
+        "id": "b21ba24a-b752-4415-9fc4-702ec851c5cf",
+        "code": 123456,
+        "description": "CABO 4/0",
+        "unit": "CDA",
+        "type": "FERRAGEM"
+      }
+    },
+    {
+      "id": "2795d34f-7ad8-48ed-aacf-5c403b0e9596",
+      "createdAt": "2024-08-14T17:52:07.675Z",
+      "observation": "Num sei das quantas",
+      "value": -1,
+      "base": {
+        "id": "dbe82710-e5e8-449a-ba49-471b356f808d",
+        "baseName": "Itaberaba"
+      },
+      "user": {
+        "id": "627a842b-eeee-42f2-b8aa-9a9fbdee0b83",
+        "name": "Rodrigo",
+        "email": "rodrigo1@ecoeletrica.com.br"
+      },
+      "project": {
+        "id": "30d2f9c4-decc-418a-bc5d-0fb16db7af57",
+        "project_number": "B-12345678"
+      },
+      "material": {
+        "id": "b21ba24a-b752-4415-9fc4-702ec851c5cf",
+        "code": 123456,
+        "description": "CABO 4/0",
+        "unit": "CDA",
+        "type": "FERRAGEM"
+      }
+    },
+    {
+      "id": "82df7b9c-327e-467c-bb1d-74186dff0557",
+      "createdAt": "2024-08-09T18:46:08.576Z",
+      "observation": "nao sei das quantas",
+      "value": 5,
+      "base": {
+        "id": "dbe82710-e5e8-449a-ba49-471b356f808d",
+        "baseName": "Itaberaba"
+      },
+      "user": {
+        "id": "627a842b-eeee-42f2-b8aa-9a9fbdee0b83",
+        "name": "Rodrigo",
+        "email": "rodrigo1@ecoeletrica.com.br"
+      },
+      "project": {
+        "id": "30d2f9c4-decc-418a-bc5d-0fb16db7af57",
+        "project_number": "B-12345678"
+      },
+      "material": {
+        "id": "b21ba24a-b752-4415-9fc4-702ec851c5cf",
+        "code": 123456,
+        "description": "CABO 4/0",
+        "unit": "CDA",
+        "type": "FERRAGEM"
+      }
+    },
+    {
+      "id": "c4dbb86e-b725-4420-81e2-d5281e16a1d7",
+      "createdAt": "2024-08-21T13:41:12.856Z",
+      "observation": "nao sei das quantas",
+      "value": 5,
+      "base": {
+        "id": "dbe82710-e5e8-449a-ba49-471b356f808d",
+        "baseName": "Itaberaba"
+      },
+      "user": {
+        "id": "627a842b-eeee-42f2-b8aa-9a9fbdee0b83",
+        "name": "Rodrigo",
+        "email": "rodrigo1@ecoeletrica.com.br"
+      },
+      "project": {
+        "id": "30d2f9c4-decc-418a-bc5d-0fb16db7af57",
+        "project_number": "B-12345678"
+      },
+      "material": {
+        "id": "b21ba24a-b752-4415-9fc4-702ec851c5cf",
+        "code": 123456,
+        "description": "CABO 4/0",
+        "unit": "CDA",
+        "type": "FERRAGEM"
+      }
+    },
+    {
+      "id": "362351c0-26a9-4275-82dc-77287b6fcca3",
+      "createdAt": "2024-09-25T13:22:56.715Z",
+      "observation": "MOVIMENTAÇÃO DE TESTE",
+      "value": 2,
+      "base": {
+        "id": "dbe82710-e5e8-449a-ba49-471b356f808d",
+        "baseName": "Itaberaba"
+      },
+      "user": {
+        "id": "627a842b-eeee-42f2-b8aa-9a9fbdee0b83",
+        "name": "Rodrigo",
+        "email": "rodrigo1@ecoeletrica.com.br"
+      },
+      "project": {
+        "id": "30d2f9c4-decc-418a-bc5d-0fb16db7af57",
+        "project_number": "B-12345678"
+      },
+      "material": {
+        "id": "b21ba24a-b752-4415-9fc4-702ec851c5cf",
+        "code": 123456,
+        "description": "CABO 4/0",
+        "unit": "CDA",
+        "type": "FERRAGEM"
+      }
+    },
+    {
+      "id": "e1982aeb-618e-4346-ba35-138c7bd17d64",
+      "createdAt": "2024-09-20T17:58:31.361Z",
+      "observation": "Material adicional - Teste adicional",
+      "value": -20,
+      "base": {
+        "id": "dbe82710-e5e8-449a-ba49-471b356f808d",
+        "baseName": "Itaberaba"
+      },
+      "user": {
+        "id": "627a842b-eeee-42f2-b8aa-9a9fbdee0b83",
+        "name": "Rodrigo",
+        "email": "rodrigo1@ecoeletrica.com.br"
+      },
+      "project": {
+        "id": "30d2f9c4-decc-418a-bc5d-0fb16db7af57",
+        "project_number": "B-12345678"
+      },
+      "material": {
+        "id": "b21ba24a-b752-4415-9fc4-702ec851c5cf",
+        "code": 123456,
+        "description": "CABO 4/0",
+        "unit": "CDA",
+        "type": "FERRAGEM"
+      }
+    },
+    {
+      "id": "13ac3fbc-aa85-451f-a96e-1aa94d754f09",
+      "createdAt": "2024-09-20T18:01:36.329Z",
+      "observation": "",
+      "value": -2.42,
+      "base": {
+        "id": "dbe82710-e5e8-449a-ba49-471b356f808d",
+        "baseName": "Itaberaba"
+      },
+      "user": {
+        "id": "627a842b-eeee-42f2-b8aa-9a9fbdee0b83",
+        "name": "Rodrigo",
+        "email": "rodrigo1@ecoeletrica.com.br"
+      },
+      "project": {
+        "id": "30d2f9c4-decc-418a-bc5d-0fb16db7af57",
+        "project_number": "B-12345678"
+      },
+      "material": {
+        "id": "d5fd168d-1a00-48b6-abe6-1668c9d4e507",
+        "code": 122456,
+        "description": "item poste 123",
+        "unit": "CDA",
+        "type": "FERRAGEM"
+      }
+    },
+    {
+      "id": "4fb45878-fe06-49cb-9790-28c8fc0bc891",
+      "createdAt": "2024-08-14T17:52:07.675Z",
+      "observation": "Num sei das quantas",
+      "value": 1,
+      "base": {
+        "id": "dbe82710-e5e8-449a-ba49-471b356f808d",
+        "baseName": "Itaberaba"
+      },
+      "user": {
+        "id": "627a842b-eeee-42f2-b8aa-9a9fbdee0b83",
+        "name": "Rodrigo",
+        "email": "rodrigo1@ecoeletrica.com.br"
+      },
+      "project": {
+        "id": "30d2f9c4-decc-418a-bc5d-0fb16db7af57",
+        "project_number": "B-12345678"
+      },
+      "material": {
+        "id": "d5fd168d-1a00-48b6-abe6-1668c9d4e507",
+        "code": 122456,
+        "description": "item poste 123",
+        "unit": "CDA",
+        "type": "FERRAGEM"
+      }
+    },
+    {
+      "id": "62d48868-a679-431c-b0ec-0553200d28a6",
+      "createdAt": "2024-08-14T17:44:44.763Z",
+      "observation": "Num sei das quantas",
+      "value": 3,
+      "base": {
+        "id": "dbe82710-e5e8-449a-ba49-471b356f808d",
+        "baseName": "Itaberaba"
+      },
+      "user": {
+        "id": "627a842b-eeee-42f2-b8aa-9a9fbdee0b83",
+        "name": "Rodrigo",
+        "email": "rodrigo1@ecoeletrica.com.br"
+      },
+      "project": {
+        "id": "30d2f9c4-decc-418a-bc5d-0fb16db7af57",
+        "project_number": "B-12345678"
+      },
+      "material": {
+        "id": "d5fd168d-1a00-48b6-abe6-1668c9d4e507",
+        "code": 122456,
+        "description": "item poste 123",
+        "unit": "CDA",
+        "type": "FERRAGEM"
+      }
+    },
+    {
+      "id": "60bf5661-1b08-4bd7-aad2-f6316325f429",
+      "createdAt": "2024-08-14T17:46:54.813Z",
+      "observation": "Num sei das quantas",
+      "value": 1,
+      "base": {
+        "id": "dbe82710-e5e8-449a-ba49-471b356f808d",
+        "baseName": "Itaberaba"
+      },
+      "user": {
+        "id": "627a842b-eeee-42f2-b8aa-9a9fbdee0b83",
+        "name": "Rodrigo",
+        "email": "rodrigo1@ecoeletrica.com.br"
+      },
+      "project": {
+        "id": "30d2f9c4-decc-418a-bc5d-0fb16db7af57",
+        "project_number": "B-12345678"
+      },
+      "material": {
+        "id": "d5fd168d-1a00-48b6-abe6-1668c9d4e507",
+        "code": 122456,
+        "description": "item poste 123",
+        "unit": "CDA",
+        "type": "FERRAGEM"
+      }
+    },
+    {
+      "id": "e7df182d-3c0c-4336-a517-b6b3674fabec",
+      "createdAt": "2024-08-14T17:46:54.813Z",
+      "observation": "Num sei das quantas",
+      "value": -1,
+      "base": {
+        "id": "dbe82710-e5e8-449a-ba49-471b356f808d",
+        "baseName": "Itaberaba"
+      },
+      "user": {
+        "id": "627a842b-eeee-42f2-b8aa-9a9fbdee0b83",
+        "name": "Rodrigo",
+        "email": "rodrigo1@ecoeletrica.com.br"
+      },
+      "project": {
+        "id": "30d2f9c4-decc-418a-bc5d-0fb16db7af57",
+        "project_number": "B-12345678"
+      },
+      "material": {
+        "id": "d5fd168d-1a00-48b6-abe6-1668c9d4e507",
+        "code": 122456,
+        "description": "item poste 123",
+        "unit": "CDA",
+        "type": "FERRAGEM"
+      }
+    },
+    {
+      "id": "7f2b2ba9-5d6d-48d3-ad3e-952ab5441cb3",
+      "createdAt": "2024-10-03T16:17:37.704Z",
+      "observation": "",
+      "value": -1.58,
+      "base": {
+        "id": "dbe82710-e5e8-449a-ba49-471b356f808d",
+        "baseName": "Itaberaba"
+      },
+      "user": {
+        "id": "627a842b-eeee-42f2-b8aa-9a9fbdee0b83",
+        "name": "Rodrigo",
+        "email": "rodrigo1@ecoeletrica.com.br"
+      },
+      "project": {
+        "id": "30d2f9c4-decc-418a-bc5d-0fb16db7af57",
+        "project_number": "B-12345678"
+      },
+      "material": {
+        "id": "d5fd168d-1a00-48b6-abe6-1668c9d4e507",
+        "code": 122456,
+        "description": "item poste 123",
+        "unit": "CDA",
+        "type": "FERRAGEM"
+      }
+    },
+    {
+      "id": "bee4c91a-5750-4678-96f2-14048ba51990",
+      "createdAt": "2024-10-07T17:08:05.210Z",
+      "observation": "",
+      "value": 1.58,
+      "base": {
+        "id": "dbe82710-e5e8-449a-ba49-471b356f808d",
+        "baseName": "Itaberaba"
+      },
+      "user": {
+        "id": "627a842b-eeee-42f2-b8aa-9a9fbdee0b83",
+        "name": "Rodrigo",
+        "email": "rodrigo1@ecoeletrica.com.br"
+      },
+      "project": {
+        "id": "30d2f9c4-decc-418a-bc5d-0fb16db7af57",
+        "project_number": "B-12345678"
+      },
+      "material": {
+        "id": "d5fd168d-1a00-48b6-abe6-1668c9d4e507",
+        "code": 122456,
+        "description": "item poste 123",
+        "unit": "CDA",
+        "type": "FERRAGEM"
+      }
+    },
+    {
+      "id": "efd2d56c-b46c-431e-a8f4-a6b56b8bd4c2",
+      "createdAt": "2024-10-07T17:15:22.401Z",
+      "observation": "",
+      "value": 24,
+      "base": {
+        "id": "dbe82710-e5e8-449a-ba49-471b356f808d",
+        "baseName": "Itaberaba"
+      },
+      "user": {
+        "id": "627a842b-eeee-42f2-b8aa-9a9fbdee0b83",
+        "name": "Rodrigo",
+        "email": "rodrigo1@ecoeletrica.com.br"
+      },
+      "project": {
+        "id": "30d2f9c4-decc-418a-bc5d-0fb16db7af57",
+        "project_number": "B-12345678"
+      },
+      "material": {
+        "id": "1c3fb2e8-36de-4547-95a8-897a1413f6f1",
+        "code": 100999,
+        "description": "RELIGADOR  15,0KV               AVARIADO",
+        "unit": "CDA",
+        "type": "EQUIPAMENTO"
+      }
+    },
+    {
+      "id": "4f78e325-b535-4489-9727-3b77cc17d67d",
+      "createdAt": "2024-10-07T17:15:22.936Z",
+      "observation": "",
+      "value": 24,
+      "base": {
+        "id": "dbe82710-e5e8-449a-ba49-471b356f808d",
+        "baseName": "Itaberaba"
+      },
+      "user": {
+        "id": "627a842b-eeee-42f2-b8aa-9a9fbdee0b83",
+        "name": "Rodrigo",
+        "email": "rodrigo1@ecoeletrica.com.br"
+      },
+      "project": {
+        "id": "30d2f9c4-decc-418a-bc5d-0fb16db7af57",
+        "project_number": "B-12345678"
+      },
+      "material": {
+        "id": "1c3fb2e8-36de-4547-95a8-897a1413f6f1",
+        "code": 100999,
+        "description": "RELIGADOR  15,0KV               AVARIADO",
+        "unit": "CDA",
+        "type": "EQUIPAMENTO"
+      }
+    },
+    {
+      "id": "f9607eb3-87cb-493a-b42c-244e8771ce1c",
+      "createdAt": "2024-10-07T17:15:24.726Z",
+      "observation": "",
+      "value": 24,
+      "base": {
+        "id": "dbe82710-e5e8-449a-ba49-471b356f808d",
+        "baseName": "Itaberaba"
+      },
+      "user": {
+        "id": "627a842b-eeee-42f2-b8aa-9a9fbdee0b83",
+        "name": "Rodrigo",
+        "email": "rodrigo1@ecoeletrica.com.br"
+      },
+      "project": {
+        "id": "30d2f9c4-decc-418a-bc5d-0fb16db7af57",
+        "project_number": "B-12345678"
+      },
+      "material": {
+        "id": "1c3fb2e8-36de-4547-95a8-897a1413f6f1",
+        "code": 100999,
+        "description": "RELIGADOR  15,0KV               AVARIADO",
+        "unit": "CDA",
+        "type": "EQUIPAMENTO"
+      }
+    },
+    {
+      "id": "2f9ed3fe-a79b-48de-ab8d-03f45c2b386d",
+      "createdAt": "2024-10-07T17:15:24.498Z",
+      "observation": "",
+      "value": 24,
+      "base": {
+        "id": "dbe82710-e5e8-449a-ba49-471b356f808d",
+        "baseName": "Itaberaba"
+      },
+      "user": {
+        "id": "627a842b-eeee-42f2-b8aa-9a9fbdee0b83",
+        "name": "Rodrigo",
+        "email": "rodrigo1@ecoeletrica.com.br"
+      },
+      "project": {
+        "id": "30d2f9c4-decc-418a-bc5d-0fb16db7af57",
+        "project_number": "B-12345678"
+      },
+      "material": {
+        "id": "1c3fb2e8-36de-4547-95a8-897a1413f6f1",
+        "code": 100999,
+        "description": "RELIGADOR  15,0KV               AVARIADO",
+        "unit": "CDA",
+        "type": "EQUIPAMENTO"
+      }
+    },
+    {
+      "id": "4acd2eef-ce26-466c-a2af-164b41aa4c0f",
+      "createdAt": "2024-10-07T17:15:24.428Z",
+      "observation": "",
+      "value": 24,
+      "base": {
+        "id": "dbe82710-e5e8-449a-ba49-471b356f808d",
+        "baseName": "Itaberaba"
+      },
+      "user": {
+        "id": "627a842b-eeee-42f2-b8aa-9a9fbdee0b83",
+        "name": "Rodrigo",
+        "email": "rodrigo1@ecoeletrica.com.br"
+      },
+      "project": {
+        "id": "30d2f9c4-decc-418a-bc5d-0fb16db7af57",
+        "project_number": "B-12345678"
+      },
+      "material": {
+        "id": "1c3fb2e8-36de-4547-95a8-897a1413f6f1",
+        "code": 100999,
+        "description": "RELIGADOR  15,0KV               AVARIADO",
+        "unit": "CDA",
+        "type": "EQUIPAMENTO"
+      }
+    },
+    {
+      "id": "09d76ded-2ead-470e-b250-e63d17918a61",
+      "createdAt": "2024-10-07T17:15:22.401Z",
+      "observation": "",
+      "value": 12,
+      "base": {
+        "id": "dbe82710-e5e8-449a-ba49-471b356f808d",
+        "baseName": "Itaberaba"
+      },
+      "user": {
+        "id": "627a842b-eeee-42f2-b8aa-9a9fbdee0b83",
+        "name": "Rodrigo",
+        "email": "rodrigo1@ecoeletrica.com.br"
+      },
+      "project": {
+        "id": "30d2f9c4-decc-418a-bc5d-0fb16db7af57",
+        "project_number": "B-12345678"
+      },
+      "material": {
+        "id": "67df09bb-9520-4f4d-b3a3-13769f2db800",
+        "code": 100259,
+        "description": "SUPORTE U DE AÇO PARA REDE BT ZERO",
+        "unit": "UD",
+        "type": "FERRAGEM"
+      }
+    },
+    {
+      "id": "266431c6-b91e-469f-b981-ea2401c20817",
+      "createdAt": "2024-10-07T17:15:22.936Z",
+      "observation": "",
+      "value": 12,
+      "base": {
+        "id": "dbe82710-e5e8-449a-ba49-471b356f808d",
+        "baseName": "Itaberaba"
+      },
+      "user": {
+        "id": "627a842b-eeee-42f2-b8aa-9a9fbdee0b83",
+        "name": "Rodrigo",
+        "email": "rodrigo1@ecoeletrica.com.br"
+      },
+      "project": {
+        "id": "30d2f9c4-decc-418a-bc5d-0fb16db7af57",
+        "project_number": "B-12345678"
+      },
+      "material": {
+        "id": "67df09bb-9520-4f4d-b3a3-13769f2db800",
+        "code": 100259,
+        "description": "SUPORTE U DE AÇO PARA REDE BT ZERO",
+        "unit": "UD",
+        "type": "FERRAGEM"
+      }
+    },
+    {
+      "id": "010dbed1-f9f8-4002-a736-39f5c431dc29",
+      "createdAt": "2024-10-07T17:15:24.726Z",
+      "observation": "",
+      "value": 12,
+      "base": {
+        "id": "dbe82710-e5e8-449a-ba49-471b356f808d",
+        "baseName": "Itaberaba"
+      },
+      "user": {
+        "id": "627a842b-eeee-42f2-b8aa-9a9fbdee0b83",
+        "name": "Rodrigo",
+        "email": "rodrigo1@ecoeletrica.com.br"
+      },
+      "project": {
+        "id": "30d2f9c4-decc-418a-bc5d-0fb16db7af57",
+        "project_number": "B-12345678"
+      },
+      "material": {
+        "id": "67df09bb-9520-4f4d-b3a3-13769f2db800",
+        "code": 100259,
+        "description": "SUPORTE U DE AÇO PARA REDE BT ZERO",
+        "unit": "UD",
+        "type": "FERRAGEM"
+      }
+    },
+    {
+      "id": "d9b4fb6a-cff7-47ae-9987-6f10d7cb0e7a",
+      "createdAt": "2024-10-07T17:15:24.498Z",
+      "observation": "",
+      "value": 12,
+      "base": {
+        "id": "dbe82710-e5e8-449a-ba49-471b356f808d",
+        "baseName": "Itaberaba"
+      },
+      "user": {
+        "id": "627a842b-eeee-42f2-b8aa-9a9fbdee0b83",
+        "name": "Rodrigo",
+        "email": "rodrigo1@ecoeletrica.com.br"
+      },
+      "project": {
+        "id": "30d2f9c4-decc-418a-bc5d-0fb16db7af57",
+        "project_number": "B-12345678"
+      },
+      "material": {
+        "id": "67df09bb-9520-4f4d-b3a3-13769f2db800",
+        "code": 100259,
+        "description": "SUPORTE U DE AÇO PARA REDE BT ZERO",
+        "unit": "UD",
+        "type": "FERRAGEM"
+      }
+    },
+    {
+      "id": "de7ddd09-f248-4c60-89ea-94286550ac18",
+      "createdAt": "2024-10-07T17:09:30.574Z",
+      "observation": "",
+      "value": 12,
+      "base": {
+        "id": "dbe82710-e5e8-449a-ba49-471b356f808d",
+        "baseName": "Itaberaba"
+      },
+      "user": {
+        "id": "627a842b-eeee-42f2-b8aa-9a9fbdee0b83",
+        "name": "Rodrigo",
+        "email": "rodrigo1@ecoeletrica.com.br"
+      },
+      "project": {
+        "id": "30d2f9c4-decc-418a-bc5d-0fb16db7af57",
+        "project_number": "B-12345678"
+      },
+      "material": {
+        "id": "1c3fb2e8-36de-4547-95a8-897a1413f6f1",
+        "code": 100999,
+        "description": "RELIGADOR  15,0KV               AVARIADO",
+        "unit": "CDA",
+        "type": "EQUIPAMENTO"
+      }
+    },
+    {
+      "id": "83167ffc-f1a7-4f0c-b66d-ec4ee8071377",
+      "createdAt": "2024-10-07T17:08:05.210Z",
+      "observation": "",
+      "value": 12,
+      "base": {
+        "id": "dbe82710-e5e8-449a-ba49-471b356f808d",
+        "baseName": "Itaberaba"
+      },
+      "user": {
+        "id": "627a842b-eeee-42f2-b8aa-9a9fbdee0b83",
+        "name": "Rodrigo",
+        "email": "rodrigo1@ecoeletrica.com.br"
+      },
+      "project": {
+        "id": "30d2f9c4-decc-418a-bc5d-0fb16db7af57",
+        "project_number": "B-12345678"
+      },
+      "material": {
+        "id": "37e6cfb5-f8e2-479d-aca1-3adbb62b5b3e",
+        "code": 110008,
+        "description": "RELIGADOR 15KV 560A 16KA  85 A 275VCA SE",
+        "unit": "CDA",
+        "type": "EQUIPAMENTO"
+      }
+    },
+    {
+      "id": "50c6712f-e152-429a-a1b1-6053c6aba8db",
+      "createdAt": "2024-10-07T17:08:05.210Z",
+      "observation": "",
+      "value": 12,
+      "base": {
+        "id": "dbe82710-e5e8-449a-ba49-471b356f808d",
+        "baseName": "Itaberaba"
+      },
+      "user": {
+        "id": "627a842b-eeee-42f2-b8aa-9a9fbdee0b83",
+        "name": "Rodrigo",
+        "email": "rodrigo1@ecoeletrica.com.br"
+      },
+      "project": {
+        "id": "30d2f9c4-decc-418a-bc5d-0fb16db7af57",
+        "project_number": "B-12345678"
+      },
+      "material": {
+        "id": "7a7b5a91-e91a-4340-8a5f-5e1acdf502f8",
+        "code": 23456,
+        "description": "CRUZETA T 1900",
+        "unit": "CDA",
+        "type": "FERRAGEM"
+      }
+    },
+    {
+      "id": "2f3237f2-8077-4e0a-9e0b-51983dbccad7",
+      "createdAt": "2024-10-07T17:15:24.428Z",
+      "observation": "",
+      "value": 12,
+      "base": {
+        "id": "dbe82710-e5e8-449a-ba49-471b356f808d",
+        "baseName": "Itaberaba"
+      },
+      "user": {
+        "id": "627a842b-eeee-42f2-b8aa-9a9fbdee0b83",
+        "name": "Rodrigo",
+        "email": "rodrigo1@ecoeletrica.com.br"
+      },
+      "project": {
+        "id": "30d2f9c4-decc-418a-bc5d-0fb16db7af57",
+        "project_number": "B-12345678"
+      },
+      "material": {
+        "id": "67df09bb-9520-4f4d-b3a3-13769f2db800",
+        "code": 100259,
+        "description": "SUPORTE U DE AÇO PARA REDE BT ZERO",
+        "unit": "UD",
+        "type": "FERRAGEM"
+      }
+    },
+    {
+      "id": "a1cf544b-59f2-4cce-b4cb-26eccf6cbc66",
+      "createdAt": "2024-10-07T17:15:22.401Z",
+      "observation": "",
+      "value": 52,
+      "base": {
+        "id": "dbe82710-e5e8-449a-ba49-471b356f808d",
+        "baseName": "Itaberaba"
+      },
+      "user": {
+        "id": "627a842b-eeee-42f2-b8aa-9a9fbdee0b83",
+        "name": "Rodrigo",
+        "email": "rodrigo1@ecoeletrica.com.br"
+      },
+      "project": {
+        "id": "30d2f9c4-decc-418a-bc5d-0fb16db7af57",
+        "project_number": "B-12345678"
+      },
+      "material": {
+        "id": "37e6cfb5-f8e2-479d-aca1-3adbb62b5b3e",
+        "code": 110008,
+        "description": "RELIGADOR 15KV 560A 16KA  85 A 275VCA SE",
+        "unit": "CDA",
+        "type": "EQUIPAMENTO"
+      }
+    },
+    {
+      "id": "f4089a21-e950-4e14-95ac-85f082be11ee",
+      "createdAt": "2024-10-07T17:15:22.936Z",
+      "observation": "",
+      "value": 52,
+      "base": {
+        "id": "dbe82710-e5e8-449a-ba49-471b356f808d",
+        "baseName": "Itaberaba"
+      },
+      "user": {
+        "id": "627a842b-eeee-42f2-b8aa-9a9fbdee0b83",
+        "name": "Rodrigo",
+        "email": "rodrigo1@ecoeletrica.com.br"
+      },
+      "project": {
+        "id": "30d2f9c4-decc-418a-bc5d-0fb16db7af57",
+        "project_number": "B-12345678"
+      },
+      "material": {
+        "id": "37e6cfb5-f8e2-479d-aca1-3adbb62b5b3e",
+        "code": 110008,
+        "description": "RELIGADOR 15KV 560A 16KA  85 A 275VCA SE",
+        "unit": "CDA",
+        "type": "EQUIPAMENTO"
+      }
+    },
+    {
+      "id": "d29ac481-6414-43e1-a511-60e3d2832958",
+      "createdAt": "2024-10-07T17:15:24.726Z",
+      "observation": "",
+      "value": 52,
+      "base": {
+        "id": "dbe82710-e5e8-449a-ba49-471b356f808d",
+        "baseName": "Itaberaba"
+      },
+      "user": {
+        "id": "627a842b-eeee-42f2-b8aa-9a9fbdee0b83",
+        "name": "Rodrigo",
+        "email": "rodrigo1@ecoeletrica.com.br"
+      },
+      "project": {
+        "id": "30d2f9c4-decc-418a-bc5d-0fb16db7af57",
+        "project_number": "B-12345678"
+      },
+      "material": {
+        "id": "37e6cfb5-f8e2-479d-aca1-3adbb62b5b3e",
+        "code": 110008,
+        "description": "RELIGADOR 15KV 560A 16KA  85 A 275VCA SE",
+        "unit": "CDA",
+        "type": "EQUIPAMENTO"
+      }
+    },
+    {
+      "id": "9385bd5b-a516-43b1-b3a8-1ee3dbdca602",
+      "createdAt": "2024-10-07T17:15:24.498Z",
+      "observation": "",
+      "value": 52,
+      "base": {
+        "id": "dbe82710-e5e8-449a-ba49-471b356f808d",
+        "baseName": "Itaberaba"
+      },
+      "user": {
+        "id": "627a842b-eeee-42f2-b8aa-9a9fbdee0b83",
+        "name": "Rodrigo",
+        "email": "rodrigo1@ecoeletrica.com.br"
+      },
+      "project": {
+        "id": "30d2f9c4-decc-418a-bc5d-0fb16db7af57",
+        "project_number": "B-12345678"
+      },
+      "material": {
+        "id": "37e6cfb5-f8e2-479d-aca1-3adbb62b5b3e",
+        "code": 110008,
+        "description": "RELIGADOR 15KV 560A 16KA  85 A 275VCA SE",
+        "unit": "CDA",
+        "type": "EQUIPAMENTO"
+      }
+    },
+    {
+      "id": "26664eff-60b6-456e-b640-51d6b5a155e9",
+      "createdAt": "2024-10-07T17:15:24.428Z",
+      "observation": "",
+      "value": 52,
+      "base": {
+        "id": "dbe82710-e5e8-449a-ba49-471b356f808d",
+        "baseName": "Itaberaba"
+      },
+      "user": {
+        "id": "627a842b-eeee-42f2-b8aa-9a9fbdee0b83",
+        "name": "Rodrigo",
+        "email": "rodrigo1@ecoeletrica.com.br"
+      },
+      "project": {
+        "id": "30d2f9c4-decc-418a-bc5d-0fb16db7af57",
+        "project_number": "B-12345678"
+      },
+      "material": {
+        "id": "37e6cfb5-f8e2-479d-aca1-3adbb62b5b3e",
+        "code": 110008,
+        "description": "RELIGADOR 15KV 560A 16KA  85 A 275VCA SE",
+        "unit": "CDA",
+        "type": "EQUIPAMENTO"
+      }
+    },
+    {
+      "id": "eab29b98-92b0-4fe2-a41a-b2481c37744f",
+      "createdAt": "2024-10-07T17:08:05.210Z",
+      "observation": "",
+      "value": 10,
+      "base": {
+        "id": "dbe82710-e5e8-449a-ba49-471b356f808d",
+        "baseName": "Itaberaba"
+      },
+      "user": {
+        "id": "627a842b-eeee-42f2-b8aa-9a9fbdee0b83",
+        "name": "Rodrigo",
+        "email": "rodrigo1@ecoeletrica.com.br"
+      },
+      "project": {
+        "id": "30d2f9c4-decc-418a-bc5d-0fb16db7af57",
+        "project_number": "B-12345678"
+      },
+      "material": {
+        "id": "386dafeb-d232-4857-ab91-746643045bf3",
+        "code": 123908131,
+        "description": "TESTE",
+        "unit": "M",
+        "type": "CONCRETO"
+      }
+    },
+    {
+      "id": "a5fb8fc3-8dee-4840-b528-0e0019c5e11f",
+      "createdAt": "2024-10-07T17:09:30.573Z",
+      "observation": "",
+      "value": 26,
+      "base": {
+        "id": "dbe82710-e5e8-449a-ba49-471b356f808d",
+        "baseName": "Itaberaba"
+      },
+      "user": {
+        "id": "627a842b-eeee-42f2-b8aa-9a9fbdee0b83",
+        "name": "Rodrigo",
+        "email": "rodrigo1@ecoeletrica.com.br"
+      },
+      "project": {
+        "id": "30d2f9c4-decc-418a-bc5d-0fb16db7af57",
+        "project_number": "B-12345678"
+      },
+      "material": {
+        "id": "37e6cfb5-f8e2-479d-aca1-3adbb62b5b3e",
+        "code": 110008,
+        "description": "RELIGADOR 15KV 560A 16KA  85 A 275VCA SE",
+        "unit": "CDA",
+        "type": "EQUIPAMENTO"
+      }
+    },
+    {
+      "id": "78ec70b0-adae-4e9f-b92f-c981e64d377c",
+      "createdAt": "2024-10-07T17:07:02.286Z",
+      "observation": "Material adicional - TESTE",
+      "value": 12,
+      "base": {
+        "id": "dbe82710-e5e8-449a-ba49-471b356f808d",
+        "baseName": "Itaberaba"
+      },
+      "user": {
+        "id": "627a842b-eeee-42f2-b8aa-9a9fbdee0b83",
+        "name": "Rodrigo",
+        "email": "rodrigo1@ecoeletrica.com.br"
+      },
+      "project": {
+        "id": "30d2f9c4-decc-418a-bc5d-0fb16db7af57",
+        "project_number": "B-12345678"
+      },
+      "material": {
+        "id": "37e6cfb5-f8e2-479d-aca1-3adbb62b5b3e",
+        "code": 110008,
+        "description": "RELIGADOR 15KV 560A 16KA  85 A 275VCA SE",
+        "unit": "CDA",
+        "type": "EQUIPAMENTO"
+      }
+    },
+    {
+      "id": "c000652c-50a0-4ad9-a0cf-f475f7981369",
+      "createdAt": "2024-10-07T17:09:30.574Z",
+      "observation": "Material adicional - TESTE",
+      "value": 12,
+      "base": {
+        "id": "dbe82710-e5e8-449a-ba49-471b356f808d",
+        "baseName": "Itaberaba"
+      },
+      "user": {
+        "id": "627a842b-eeee-42f2-b8aa-9a9fbdee0b83",
+        "name": "Rodrigo",
+        "email": "rodrigo1@ecoeletrica.com.br"
+      },
+      "project": {
+        "id": "30d2f9c4-decc-418a-bc5d-0fb16db7af57",
+        "project_number": "B-12345678"
+      },
+      "material": {
+        "id": "b21ba24a-b752-4415-9fc4-702ec851c5cf",
+        "code": 123456,
+        "description": "CABO 4/0",
+        "unit": "CDA",
+        "type": "FERRAGEM"
+      }
+    },
+    {
+      "id": "271d81b2-ca0e-4018-b42a-e91c4978f662",
+      "createdAt": "2024-10-07T17:09:30.574Z",
+      "observation": "Material adicional - TESTE",
+      "value": 12,
+      "base": {
+        "id": "dbe82710-e5e8-449a-ba49-471b356f808d",
+        "baseName": "Itaberaba"
+      },
+      "user": {
+        "id": "627a842b-eeee-42f2-b8aa-9a9fbdee0b83",
+        "name": "Rodrigo",
+        "email": "rodrigo1@ecoeletrica.com.br"
+      },
+      "project": {
+        "id": "30d2f9c4-decc-418a-bc5d-0fb16db7af57",
+        "project_number": "B-12345678"
+      },
+      "material": {
+        "id": "67df09bb-9520-4f4d-b3a3-13769f2db800",
+        "code": 100259,
+        "description": "SUPORTE U DE AÇO PARA REDE BT ZERO",
+        "unit": "UD",
+        "type": "FERRAGEM"
+      }
+    },
+    {
+      "id": "9f2d997c-97e8-4d61-a346-8fefc822d5b2",
+      "createdAt": "2024-10-07T17:08:05.210Z",
+      "observation": "Material adicional - TESTE",
+      "value": 12,
+      "base": {
+        "id": "dbe82710-e5e8-449a-ba49-471b356f808d",
+        "baseName": "Itaberaba"
+      },
+      "user": {
+        "id": "627a842b-eeee-42f2-b8aa-9a9fbdee0b83",
+        "name": "Rodrigo",
+        "email": "rodrigo1@ecoeletrica.com.br"
+      },
+      "project": {
+        "id": "30d2f9c4-decc-418a-bc5d-0fb16db7af57",
+        "project_number": "B-12345678"
+      },
+      "material": {
+        "id": "1c3fb2e8-36de-4547-95a8-897a1413f6f1",
+        "code": 100999,
+        "description": "RELIGADOR  15,0KV               AVARIADO",
+        "unit": "CDA",
+        "type": "EQUIPAMENTO"
+      }
+    },
+    {
+      "id": "352d1465-65de-4a2f-a2e5-72158dbfc236",
+      "createdAt": "2024-10-07T17:08:05.210Z",
+      "observation": "Material adicional - TESTE",
+      "value": 2,
+      "base": {
+        "id": "dbe82710-e5e8-449a-ba49-471b356f808d",
+        "baseName": "Itaberaba"
+      },
+      "user": {
+        "id": "627a842b-eeee-42f2-b8aa-9a9fbdee0b83",
+        "name": "Rodrigo",
+        "email": "rodrigo1@ecoeletrica.com.br"
+      },
+      "project": {
+        "id": "30d2f9c4-decc-418a-bc5d-0fb16db7af57",
+        "project_number": "B-12345678"
+      },
+      "material": {
+        "id": "37e6cfb5-f8e2-479d-aca1-3adbb62b5b3e",
+        "code": 110008,
+        "description": "RELIGADOR 15KV 560A 16KA  85 A 275VCA SE",
+        "unit": "CDA",
+        "type": "EQUIPAMENTO"
+      }
+    },
+    {
+      "id": "80213993-e16c-4c50-b945-fe32c7528308",
+      "createdAt": "2024-10-07T18:40:37.534Z",
+      "observation": "",
+      "value": -14,
+      "base": {
+        "id": "dbe82710-e5e8-449a-ba49-471b356f808d",
+        "baseName": "Itaberaba"
+      },
+      "user": {
+        "id": "627a842b-eeee-42f2-b8aa-9a9fbdee0b83",
+        "name": "Rodrigo",
+        "email": "rodrigo1@ecoeletrica.com.br"
+      },
+      "project": {
+        "id": "30d2f9c4-decc-418a-bc5d-0fb16db7af57",
+        "project_number": "B-12345678"
+      },
+      "material": {
+        "id": "cc112a60-5bf8-426d-b062-554781853c9f",
+        "code": 210444,
+        "description": "TRAFO 3F 45KVA 13,8KV 380/220V 5T VG",
+        "unit": "CDA",
+        "type": "EQUIPAMENTO"
+      }
+    },
+    {
+      "id": "7d6f9955-bbd2-423d-ab5f-899e8592e081",
+      "createdAt": "2024-10-07T18:08:48.125Z",
+      "observation": "",
+      "value": 280,
+      "base": {
+        "id": "dbe82710-e5e8-449a-ba49-471b356f808d",
+        "baseName": "Itaberaba"
+      },
+      "user": {
+        "id": "627a842b-eeee-42f2-b8aa-9a9fbdee0b83",
+        "name": "Rodrigo",
+        "email": "rodrigo1@ecoeletrica.com.br"
+      },
+      "project": {
+        "id": "30d2f9c4-decc-418a-bc5d-0fb16db7af57",
+        "project_number": "B-12345678"
+      },
+      "material": {
+        "id": "b21ba24a-b752-4415-9fc4-702ec851c5cf",
+        "code": 123456,
+        "description": "CABO 4/0",
+        "unit": "CDA",
+        "type": "FERRAGEM"
+      }
+    },
+    {
+      "id": "820717fe-94c5-4276-8963-4a5095d5db7b",
+      "createdAt": "2024-10-07T18:08:48.125Z",
+      "observation": "",
+      "value": 14,
+      "base": {
+        "id": "dbe82710-e5e8-449a-ba49-471b356f808d",
+        "baseName": "Itaberaba"
+      },
+      "user": {
+        "id": "627a842b-eeee-42f2-b8aa-9a9fbdee0b83",
+        "name": "Rodrigo",
+        "email": "rodrigo1@ecoeletrica.com.br"
+      },
+      "project": {
+        "id": "30d2f9c4-decc-418a-bc5d-0fb16db7af57",
+        "project_number": "B-12345678"
+      },
+      "material": {
+        "id": "cc112a60-5bf8-426d-b062-554781853c9f",
+        "code": 210444,
+        "description": "TRAFO 3F 45KVA 13,8KV 380/220V 5T VG",
+        "unit": "CDA",
+        "type": "EQUIPAMENTO"
+      }
+    },
+    {
+      "id": "ebb75caa-0a2d-4002-81a0-1419c16afb03",
+      "createdAt": "2024-10-07T18:08:48.125Z",
+      "observation": "",
+      "value": 144,
+      "base": {
+        "id": "dbe82710-e5e8-449a-ba49-471b356f808d",
+        "baseName": "Itaberaba"
+      },
+      "user": {
+        "id": "627a842b-eeee-42f2-b8aa-9a9fbdee0b83",
+        "name": "Rodrigo",
+        "email": "rodrigo1@ecoeletrica.com.br"
+      },
+      "project": {
+        "id": "30d2f9c4-decc-418a-bc5d-0fb16db7af57",
+        "project_number": "B-12345678"
+      },
+      "material": {
+        "id": "1c3fb2e8-36de-4547-95a8-897a1413f6f1",
+        "code": 100999,
+        "description": "RELIGADOR  15,0KV               AVARIADO",
+        "unit": "CDA",
+        "type": "EQUIPAMENTO"
+      }
+    },
+    {
+      "id": "0853ec61-ed5c-4bbf-867e-e5f77b423264",
+      "createdAt": "2024-10-07T18:08:48.125Z",
+      "observation": "",
+      "value": 312,
+      "base": {
+        "id": "dbe82710-e5e8-449a-ba49-471b356f808d",
+        "baseName": "Itaberaba"
+      },
+      "user": {
+        "id": "627a842b-eeee-42f2-b8aa-9a9fbdee0b83",
+        "name": "Rodrigo",
+        "email": "rodrigo1@ecoeletrica.com.br"
+      },
+      "project": {
+        "id": "30d2f9c4-decc-418a-bc5d-0fb16db7af57",
+        "project_number": "B-12345678"
+      },
+      "material": {
+        "id": "37e6cfb5-f8e2-479d-aca1-3adbb62b5b3e",
+        "code": 110008,
+        "description": "RELIGADOR 15KV 560A 16KA  85 A 275VCA SE",
+        "unit": "CDA",
+        "type": "EQUIPAMENTO"
+      }
+    },
+    {
+      "id": "52bc8ac4-043e-4d35-9516-e97457644b3a",
+      "createdAt": "2024-10-07T18:08:48.125Z",
+      "observation": "",
+      "value": 72,
+      "base": {
+        "id": "dbe82710-e5e8-449a-ba49-471b356f808d",
+        "baseName": "Itaberaba"
+      },
+      "user": {
+        "id": "627a842b-eeee-42f2-b8aa-9a9fbdee0b83",
+        "name": "Rodrigo",
+        "email": "rodrigo1@ecoeletrica.com.br"
+      },
+      "project": {
+        "id": "30d2f9c4-decc-418a-bc5d-0fb16db7af57",
+        "project_number": "B-12345678"
+      },
+      "material": {
+        "id": "67df09bb-9520-4f4d-b3a3-13769f2db800",
+        "code": 100259,
+        "description": "SUPORTE U DE AÇO PARA REDE BT ZERO",
+        "unit": "UD",
+        "type": "FERRAGEM"
+      }
+    },
+    {
+      "id": "cf8a81b6-d819-4237-b2d7-afaabb926512",
+      "createdAt": "2024-10-07T18:08:48.125Z",
+      "observation": "",
+      "value": 27,
+      "base": {
+        "id": "dbe82710-e5e8-449a-ba49-471b356f808d",
+        "baseName": "Itaberaba"
+      },
+      "user": {
+        "id": "627a842b-eeee-42f2-b8aa-9a9fbdee0b83",
+        "name": "Rodrigo",
+        "email": "rodrigo1@ecoeletrica.com.br"
+      },
+      "project": {
+        "id": "30d2f9c4-decc-418a-bc5d-0fb16db7af57",
+        "project_number": "B-12345678"
+      },
+      "material": {
+        "id": "12846b1c-2386-4bad-9a1d-4d422d7b4af4",
+        "code": 1234568,
+        "description": "item poste 123",
+        "unit": "CDA",
+        "type": "FERRAGEM"
+      }
+    },
+    {
+      "id": "be5ba6dd-8e87-4ca4-a434-cecd3332f58f",
+      "createdAt": "2024-10-07T18:08:48.125Z",
+      "observation": "Material adicional - TESTE",
+      "value": 2,
+      "base": {
+        "id": "dbe82710-e5e8-449a-ba49-471b356f808d",
+        "baseName": "Itaberaba"
+      },
+      "user": {
+        "id": "627a842b-eeee-42f2-b8aa-9a9fbdee0b83",
+        "name": "Rodrigo",
+        "email": "rodrigo1@ecoeletrica.com.br"
+      },
+      "project": {
+        "id": "30d2f9c4-decc-418a-bc5d-0fb16db7af57",
+        "project_number": "B-12345678"
+      },
+      "material": {
+        "id": "124cfbd7-8c4f-4cbc-a055-de89af37986e",
+        "code": 210434,
+        "description": "TRAFO 1FN 37,5KVA 7,9KV 440/220V 5T MI",
+        "unit": "CDA",
+        "type": "EQUIPAMENTO"
+      }
+    },
+    {
+      "id": "6f7b749f-627b-47b6-9923-3263e983511e",
+      "createdAt": "2024-10-07T18:05:36.102Z",
+      "observation": "Material adicional - 22",
+      "value": 2,
+      "base": {
+        "id": "dbe82710-e5e8-449a-ba49-471b356f808d",
+        "baseName": "Itaberaba"
+      },
+      "user": {
+        "id": "627a842b-eeee-42f2-b8aa-9a9fbdee0b83",
+        "name": "Rodrigo",
+        "email": "rodrigo1@ecoeletrica.com.br"
+      },
+      "project": {
+        "id": "30d2f9c4-decc-418a-bc5d-0fb16db7af57",
+        "project_number": "B-12345678"
+      },
+      "material": {
+        "id": "cc112a60-5bf8-426d-b062-554781853c9f",
+        "code": 210444,
+        "description": "TRAFO 3F 45KVA 13,8KV 380/220V 5T VG",
+        "unit": "CDA",
+        "type": "EQUIPAMENTO"
+      }
+    },
+    {
+      "id": "e82ecf11-3030-45ff-bacb-4418c0acf0a5",
+      "createdAt": "2024-10-07T18:05:36.102Z",
+      "observation": "Material adicional - TESTE",
+      "value": 12,
+      "base": {
+        "id": "dbe82710-e5e8-449a-ba49-471b356f808d",
+        "baseName": "Itaberaba"
+      },
+      "user": {
+        "id": "627a842b-eeee-42f2-b8aa-9a9fbdee0b83",
+        "name": "Rodrigo",
+        "email": "rodrigo1@ecoeletrica.com.br"
+      },
+      "project": {
+        "id": "30d2f9c4-decc-418a-bc5d-0fb16db7af57",
+        "project_number": "B-12345678"
+      },
+      "material": {
+        "id": "cc112a60-5bf8-426d-b062-554781853c9f",
+        "code": 210444,
+        "description": "TRAFO 3F 45KVA 13,8KV 380/220V 5T VG",
+        "unit": "CDA",
+        "type": "EQUIPAMENTO"
+      }
+    },
+    {
+      "id": "52f22f6a-2b6c-4236-8197-95e1ff232723",
+      "createdAt": "2024-10-07T18:58:51.963Z",
+      "observation": "Teste",
+      "value": -14,
+      "base": {
+        "id": "dbe82710-e5e8-449a-ba49-471b356f808d",
+        "baseName": "Itaberaba"
+      },
+      "user": {
+        "id": "627a842b-eeee-42f2-b8aa-9a9fbdee0b83",
+        "name": "Rodrigo",
+        "email": "rodrigo1@ecoeletrica.com.br"
+      },
+      "project": {
+        "id": "30d2f9c4-decc-418a-bc5d-0fb16db7af57",
+        "project_number": "B-12345678"
+      },
+      "material": {
+        "id": "cc112a60-5bf8-426d-b062-554781853c9f",
+        "code": 210444,
+        "description": "TRAFO 3F 45KVA 13,8KV 380/220V 5T VG",
+        "unit": "CDA",
+        "type": "EQUIPAMENTO"
+      }
+    },
+    {
+      "id": "462fdeac-8ecb-4abc-8823-801d3440d9b1",
+      "createdAt": "2024-10-07T18:54:50.168Z",
+      "observation": "DEVOLUÇÃO SAÍDA",
+      "value": -10,
+      "base": {
+        "id": "dbe82710-e5e8-449a-ba49-471b356f808d",
+        "baseName": "Itaberaba"
+      },
+      "user": {
+        "id": "627a842b-eeee-42f2-b8aa-9a9fbdee0b83",
+        "name": "Rodrigo",
+        "email": "rodrigo1@ecoeletrica.com.br"
+      },
+      "project": {
+        "id": "30d2f9c4-decc-418a-bc5d-0fb16db7af57",
+        "project_number": "B-12345678"
+      },
+      "material": {
+        "id": "386dafeb-d232-4857-ab91-746643045bf3",
+        "code": 123908131,
+        "description": "TESTE",
+        "unit": "M",
+        "type": "CONCRETO"
+      }
+    },
+    {
+      "id": "a2b01a3c-f854-450a-926e-26443239fb5a",
+      "createdAt": "2024-10-07T18:53:44.065Z",
+      "observation": "Material adicional - TEST",
+      "value": 77,
+      "base": {
+        "id": "dbe82710-e5e8-449a-ba49-471b356f808d",
+        "baseName": "Itaberaba"
+      },
+      "user": {
+        "id": "627a842b-eeee-42f2-b8aa-9a9fbdee0b83",
+        "name": "Rodrigo",
+        "email": "rodrigo1@ecoeletrica.com.br"
+      },
+      "project": {
+        "id": "30d2f9c4-decc-418a-bc5d-0fb16db7af57",
+        "project_number": "B-12345678"
+      },
+      "material": {
+        "id": "d5fd168d-1a00-48b6-abe6-1668c9d4e507",
+        "code": 122456,
+        "description": "item poste 123",
+        "unit": "CDA",
+        "type": "FERRAGEM"
       }
     }
-  }
-]
+  ],
+  "budgets": [
+    {
+      "id": "940ca4c2-f9a2-42cc-907c-bbcfbb8cdae4",
+      "createdAt": "2024-10-01T15:00:27.735Z",
+      "value": 2,
+      "contract": {
+        "id": "e816f105-e022-4560-b32c-d2af40c18351",
+        "contractName": "Centro-Oeste Bahia"
+      },
+      "user": {
+        "id": "627a842b-eeee-42f2-b8aa-9a9fbdee0b83",
+        "name": "Rodrigo",
+        "email": "rodrigo1@ecoeletrica.com.br"
+      },
+      "project": {
+        "id": "30d2f9c4-decc-418a-bc5d-0fb16db7af57",
+        "project_number": "B-12345678",
+        "description": "MP-NUM-SEI-DAS-QUANTAS",
+        "city": "Ituí"
+      },
+      "material": {
+        "id": "386dafeb-d232-4857-ab91-746643045bf3",
+        "code": 123908131,
+        "description": "TESTE",
+        "unit": "M",
+        "type": "CONCRETO"
+      }
+    },
+    {
+      "id": "94360e5e-6408-45c8-b5ad-3ea43fc10bdf",
+      "createdAt": "2024-10-01T14:54:13.229Z",
+      "value": 2,
+      "contract": {
+        "id": "e816f105-e022-4560-b32c-d2af40c18351",
+        "contractName": "Centro-Oeste Bahia"
+      },
+      "user": {
+        "id": "627a842b-eeee-42f2-b8aa-9a9fbdee0b83",
+        "name": "Rodrigo",
+        "email": "rodrigo1@ecoeletrica.com.br"
+      },
+      "project": {
+        "id": "30d2f9c4-decc-418a-bc5d-0fb16db7af57",
+        "project_number": "B-12345678",
+        "description": "MP-NUM-SEI-DAS-QUANTAS",
+        "city": "Ituí"
+      },
+      "material": {
+        "id": "386dafeb-d232-4857-ab91-746643045bf3",
+        "code": 123908131,
+        "description": "TESTE",
+        "unit": "M",
+        "type": "CONCRETO"
+      }
+    },
+    {
+      "id": "245dedfe-2c7c-4e6e-b10f-a6003a53d601",
+      "createdAt": "2024-08-21T13:23:09.331Z",
+      "value": 250,
+      "updatedAt": "2024-10-01T17:33:21.510Z",
+      "updatedAuthor": {
+        "id": "627a842b-eeee-42f2-b8aa-9a9fbdee0b83",
+        "name": "Rodrigo",
+        "email": "rodrigo1@ecoeletrica.com.br"
+      },
+      "contract": {
+        "id": "e816f105-e022-4560-b32c-d2af40c18351",
+        "contractName": "Centro-Oeste Bahia"
+      },
+      "user": {
+        "id": "627a842b-eeee-42f2-b8aa-9a9fbdee0b83",
+        "name": "Rodrigo",
+        "email": "rodrigo1@ecoeletrica.com.br"
+      },
+      "project": {
+        "id": "30d2f9c4-decc-418a-bc5d-0fb16db7af57",
+        "project_number": "B-12345678",
+        "description": "MP-NUM-SEI-DAS-QUANTAS",
+        "city": "Ituí"
+      },
+      "material": {
+        "id": "b21ba24a-b752-4415-9fc4-702ec851c5cf",
+        "code": 123456,
+        "description": "CABO 4/0",
+        "unit": "CDA",
+        "type": "FERRAGEM"
+      }
+    },
+    {
+      "id": "fab300d7-6188-4c4c-b6d9-0308d993a80f",
+      "createdAt": "2024-10-01T14:48:28.639Z",
+      "value": 2,
+      "contract": {
+        "id": "e816f105-e022-4560-b32c-d2af40c18351",
+        "contractName": "Centro-Oeste Bahia"
+      },
+      "user": {
+        "id": "627a842b-eeee-42f2-b8aa-9a9fbdee0b83",
+        "name": "Rodrigo",
+        "email": "rodrigo1@ecoeletrica.com.br"
+      },
+      "project": {
+        "id": "30d2f9c4-decc-418a-bc5d-0fb16db7af57",
+        "project_number": "B-12345678",
+        "description": "MP-NUM-SEI-DAS-QUANTAS",
+        "city": "Ituí"
+      },
+      "material": {
+        "id": "386dafeb-d232-4857-ab91-746643045bf3",
+        "code": 123908131,
+        "description": "TESTE",
+        "unit": "M",
+        "type": "CONCRETO"
+      }
+    },
+    {
+      "id": "e3bdfbfc-3009-4e4e-8b29-4b2314ee38c7",
+      "createdAt": "2024-10-01T14:52:15.237Z",
+      "value": 2,
+      "contract": {
+        "id": "e816f105-e022-4560-b32c-d2af40c18351",
+        "contractName": "Centro-Oeste Bahia"
+      },
+      "user": {
+        "id": "627a842b-eeee-42f2-b8aa-9a9fbdee0b83",
+        "name": "Rodrigo",
+        "email": "rodrigo1@ecoeletrica.com.br"
+      },
+      "project": {
+        "id": "30d2f9c4-decc-418a-bc5d-0fb16db7af57",
+        "project_number": "B-12345678",
+        "description": "MP-NUM-SEI-DAS-QUANTAS",
+        "city": "Ituí"
+      },
+      "material": {
+        "id": "386dafeb-d232-4857-ab91-746643045bf3",
+        "code": 123908131,
+        "description": "TESTE",
+        "unit": "M",
+        "type": "CONCRETO"
+      }
+    },
+    {
+      "id": "23eb1738-68ec-4d09-8d72-70b9a999d6d4",
+      "createdAt": "2024-08-21T13:23:09.331Z",
+      "value": 12,
+      "contract": {
+        "id": "e816f105-e022-4560-b32c-d2af40c18351",
+        "contractName": "Centro-Oeste Bahia"
+      },
+      "user": {
+        "id": "627a842b-eeee-42f2-b8aa-9a9fbdee0b83",
+        "name": "Rodrigo",
+        "email": "rodrigo1@ecoeletrica.com.br"
+      },
+      "project": {
+        "id": "30d2f9c4-decc-418a-bc5d-0fb16db7af57",
+        "project_number": "B-12345678",
+        "description": "MP-NUM-SEI-DAS-QUANTAS",
+        "city": "Ituí"
+      },
+      "material": {
+        "id": "7a7b5a91-e91a-4340-8a5f-5e1acdf502f8",
+        "code": 23456,
+        "description": "CRUZETA T 1900",
+        "unit": "CDA",
+        "type": "FERRAGEM"
+      }
+    },
+    {
+      "id": "2d4d65f9-fe46-47cc-a326-901dc2bd1f18",
+      "createdAt": "2024-08-21T13:23:09.331Z",
+      "value": -3,
+      "contract": {
+        "id": "e816f105-e022-4560-b32c-d2af40c18351",
+        "contractName": "Centro-Oeste Bahia"
+      },
+      "user": {
+        "id": "627a842b-eeee-42f2-b8aa-9a9fbdee0b83",
+        "name": "Rodrigo",
+        "email": "rodrigo1@ecoeletrica.com.br"
+      },
+      "project": {
+        "id": "30d2f9c4-decc-418a-bc5d-0fb16db7af57",
+        "project_number": "B-12345678",
+        "description": "MP-NUM-SEI-DAS-QUANTAS",
+        "city": "Ituí"
+      },
+      "material": {
+        "id": "d5fd168d-1a00-48b6-abe6-1668c9d4e507",
+        "code": 122456,
+        "description": "item poste 123",
+        "unit": "CDA",
+        "type": "FERRAGEM"
+      }
+    },
+    {
+      "id": "dccf3132-e37e-4e94-937e-f7d3933061cb",
+      "createdAt": "2024-08-21T13:21:51.328Z",
+      "value": 4.58,
+      "contract": {
+        "id": "e816f105-e022-4560-b32c-d2af40c18351",
+        "contractName": "Centro-Oeste Bahia"
+      },
+      "user": {
+        "id": "627a842b-eeee-42f2-b8aa-9a9fbdee0b83",
+        "name": "Rodrigo",
+        "email": "rodrigo1@ecoeletrica.com.br"
+      },
+      "project": {
+        "id": "30d2f9c4-decc-418a-bc5d-0fb16db7af57",
+        "project_number": "B-12345678",
+        "description": "MP-NUM-SEI-DAS-QUANTAS",
+        "city": "Ituí"
+      },
+      "material": {
+        "id": "d5fd168d-1a00-48b6-abe6-1668c9d4e507",
+        "code": 122456,
+        "description": "item poste 123",
+        "unit": "CDA",
+        "type": "FERRAGEM"
+      }
+    },
+    {
+      "id": "ae703564-28bd-4d34-9f5e-e1546d71f02d",
+      "createdAt": "2024-10-01T17:33:21.510Z",
+      "value": 2,
+      "contract": {
+        "id": "e816f105-e022-4560-b32c-d2af40c18351",
+        "contractName": "Centro-Oeste Bahia"
+      },
+      "user": {
+        "id": "627a842b-eeee-42f2-b8aa-9a9fbdee0b83",
+        "name": "Rodrigo",
+        "email": "rodrigo1@ecoeletrica.com.br"
+      },
+      "project": {
+        "id": "30d2f9c4-decc-418a-bc5d-0fb16db7af57",
+        "project_number": "B-12345678",
+        "description": "MP-NUM-SEI-DAS-QUANTAS",
+        "city": "Ituí"
+      },
+      "material": {
+        "id": "386dafeb-d232-4857-ab91-746643045bf3",
+        "code": 123908131,
+        "description": "TESTE",
+        "unit": "M",
+        "type": "CONCRETO"
+      }
+    }
+  ]
+}
