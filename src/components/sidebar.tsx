@@ -1,15 +1,21 @@
-import { useState, useMemo } from 'react';
-import { NavLink } from 'react-router-dom';
+import { useState, useMemo, useContext } from 'react';
+import { NavLink, useNavigate } from 'react-router-dom';
 import Logo from '../assets/logo.svg';
 import { ArrowLeftFromLine, ArrowRightToLine, ChevronLeft, PowerOff } from 'lucide-react';
 import { filterMenu } from '../lib/sidebar-menu';
 import { ThemeToggle } from './theme/theme-toggle';
+// import { AuthContext } from '@/contexts/AuthContext';
 
 const Sidebar = ({ typeAcess }: { typeAcess: string }) => {
   const [openMenu, setOpenMenu] = useState<string | null>(null);
   const [isCollapsed, setIsCollapsed] = useState(true);
 
   const menu = useMemo(() => filterMenu(typeAcess), [typeAcess]);
+
+  const handleMouseEnter = () => setIsCollapsed(false);
+  const handleMouseLeave = () => setIsCollapsed(true);
+  // const { logout } = useContext(AuthContext)
+  const navigate = useNavigate()
 
   return (
     <div className={`min-h-screen flex flex-col justify-between border-r shadow-[0_20px_50px_rgba(6,_10,_10,_0.2)] transition-width duration-300 ${isCollapsed ? 'w-16' : 'w-60'}`}>
@@ -23,31 +29,28 @@ const Sidebar = ({ typeAcess }: { typeAcess: string }) => {
             />
           </NavLink>
         </div>
-        <div className={`transition-all duration-300 ${isCollapsed ? 'w-auto' : 'w-60'}`}>
+        <div className={`transition-all duration-300 ${isCollapsed ? 'w-auto' : 'w-auto'}`} onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
           <ul className="list-none">
             {menu.map((item) => (
               <li key={item.id} title={item.label} className="group">
                 {item.subMenu?.length === 0 ? (
-                  <NavLink
-                    to={item.link}
+                  <NavLink to={item.link}
                     className={({ isActive }) =>
                       `flex items-center py-4 gap-2 hover:bg-blue-800 hover:text-white-500 transition-colors duration-300 rounded-r-sm ${isCollapsed ? 'justify-center' : 'px-4'} ${isActive ? 'bg-blue-800 text-white-500' : ''}`
                     }
                     end
                   >
-                    <item.icon className="cursor-pointer text-2xl" />
-                    {!isCollapsed && <span>{item.label}</span>}
+                    <item.icon className="cursor-pointer" />
+                    {!isCollapsed && <span className="whitespace-pre text-sm">{item.label}</span>}
                   </NavLink>
                 ) : (
                   <button
                     onClick={() => setOpenMenu(openMenu === item.id ? null : item.id)}
                     className={`flex items-center w-full py-4 gap-2 hover:bg-blue-800 hover:text-white-500 transition-colors duration-200 rounded-r-sm ${isCollapsed ? 'justify-center' : 'px-4'} ${openMenu === item.id ? 'bg-blue-800 text-white-500' : ''}`}
                   >
-                    <item.icon className="cursor-pointer text-2xl" />
-                    {!isCollapsed && <span>{item.label}</span>}
-                    {!isCollapsed && (
-                      <ChevronLeft className={`ml-auto transition-transform ${openMenu === item.id ? 'rotate-90' : ''}`} />
-                    )}
+                    <item.icon className="cursor-pointer text-sm" />
+                    {!isCollapsed && <span className="whitespace-pre text-sm">{item.label}</span>}
+                    {!isCollapsed && (<ChevronLeft className={`ml-auto transition-transform ${openMenu === item.id ? 'rotate-90' : ''}`} />)}
                   </button>
                 )}
 
@@ -63,7 +66,7 @@ const Sidebar = ({ typeAcess }: { typeAcess: string }) => {
                             }
                             end
                           >
-                            <subItem.icon className="cursor-pointer text-2xl hover:text-white" />
+                            <subItem.icon className="cursor-pointer text-sm hover:text-white" />
                             {subItem.label}
                           </NavLink>
                         </li>
@@ -77,10 +80,14 @@ const Sidebar = ({ typeAcess }: { typeAcess: string }) => {
         </div>
       </div>
 
-      <div className={`${isCollapsed ? 'justify-center flex-col' : 'w-full justify-between'} flex items-center text-2xl p-4 border-t border-border gap-4`}>
+      <div className={`${isCollapsed ? 'justify-center flex-col' : 'w-full justify-between'} flex items-center text-sm p-4 border-t border-border gap-4`} >
         <ThemeToggle />
         <span title="Sair">
-          <PowerOff className="cursor-pointer text-red-600" name="sign-out" aria-label="sign-out" onClick={() => console.log("quero sair")} />
+          <PowerOff className="cursor-pointer text-red-600" name="sign-out" aria-label="sign-out" onClick={() => {
+            // logout()
+            navigate("/")
+          }} />
+
         </span>
         <button name="toggleSidebar" onClick={() => setIsCollapsed((state) => !state)}>
           {isCollapsed ? (
