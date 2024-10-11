@@ -9,76 +9,11 @@ import MovimentationTable from "./table";
 import { Project } from "@/@types/entities/Project";
 import { Helmet } from "react-helmet-async";
 import { Material } from "@/@types/entities/Material";
-import { Button } from "@/components/ui/button";
-import { toast } from "sonner";
 
 export default function Movimentation() {
   const [dataMovimentations, setDataMovimentations] = useState<MovimentationData>({
     addon: [], movimentation: []
   } as MovimentationData);
-
-  async function handleSend() {
-    let newDataMovimentation = [];
-
-    if (typeOfMovimentation === 'Saída') {
-      newDataMovimentation = [
-        ...dataMovimentations.movimentation
-          .filter((r) => r.to_send != 0)
-          .map((movimentation) => {
-            return {
-              materialId: movimentation.material.id,
-              projectId: movimentation.project.id,
-              observation: movimentation.observation,
-              value: Math.abs(movimentation.to_send),
-            };
-          }),
-        ...(dataMovimentations.addon || [])
-          .filter((r) => r.to_send != 0)
-          .map((movimentation) => {
-            return {
-              materialId: movimentation.material.id,
-              projectId: movimentation.project.id,
-              observation: movimentation.observation,
-              value: Math.abs(movimentation.to_send),
-            };
-          }),
-      ];
-    } else if (typeOfMovimentation == "Devolução") {
-      newDataMovimentation = [
-        ...dataMovimentations.movimentation
-          .filter((r) => r.to_send != 0)
-          .map((movimentation) => {
-            return {
-              materialId: movimentation.material.id,
-              projectId: movimentation.project.id,
-              observation: movimentation.observation,
-              value: Math.abs(movimentation.to_send) * -1,
-            };
-          }),
-        ...(dataMovimentations.addon || [])
-          .filter((r) => r.to_send != 0)
-          .map((movimentation) => {
-            return {
-              materialId: movimentation.material.id,
-              projectId: movimentation.project.id,
-              observation: movimentation.observation,
-              value: Math.abs(movimentation.to_send) * -1,
-            };
-          }),
-      ];
-    } else {
-      return toast.error('Escolha o tipo de movimentação!')
-    }
-
-    if (newDataMovimentation.length <= 0) {
-      return toast.error('Sem dados para movimentar!');
-    }
-
-    console.log(newDataMovimentation)
-
-  }
-
-
 
   const [searchParams] = useSearchParams();
   const project_number = searchParams.get('project_number');
@@ -102,12 +37,7 @@ export default function Movimentation() {
 
     return formatDate(latestDate.createdAt, "dd/MM/yyyy HH:mm:ss");
   }
-  const verifyExistenceIdentifier = () => {
-    if (result?.physicalDocumentSearch) {
-      return true
-    }
-    return false
-  }
+
 
   const getMovimentations = useCallback(async (project_number: string) => {
     if (!project_number) {
@@ -194,7 +124,6 @@ export default function Movimentation() {
       <Helmet title="Movimentação" />
       <SearchTableMovimentation dataBugdet={getLastDateMovimentation()} setTypeOfMovimentation={setTypeOfMovimentation} />
       {result && <MovimentationTable data={dataMovimentations?.movimentation ? dataMovimentations?.movimentation : []} typeOfMovimentation={typeOfMovimentation} />}
-      <Button onClick={handleSend}>Movimentar</Button>
     </div>
   );
 }

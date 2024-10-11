@@ -58,6 +58,11 @@ export default function MovimentationTable({ data: initialData, typeOfMovimentat
     handleInputChange(index, 'to_send', valueToSend);
   };
 
+  const truncateText = (text, maxLength) => {
+    if (!text) return '';
+    return text.length > maxLength ? `${text.slice(0, maxLength)}...` : text;
+  };
+
   return (
     <Table>
       <TableHeader>
@@ -75,7 +80,14 @@ export default function MovimentationTable({ data: initialData, typeOfMovimentat
           <TableRow key={row.id}>
             <TableCell className="text-center">{row.project.project_number}</TableCell>
             <TableCell className="text-center">{row.material.code}</TableCell>
-            <TableCell className="text-center">{row.material.description}</TableCell>
+            <TableCell className="text-center">
+              <div
+                className="max-w-[150px] truncate cursor-pointer"
+                title={row.material.description} // Tooltip com texto completo
+              >
+                {truncateText(row.material.description, 10)} {/* Chama a função para truncar */}
+              </div>
+            </TableCell>
             <TableCell className="text-center">{row.material.unit}</TableCell>
             <TableCell className="text-center">{row.value_budget}</TableCell>
             <TableCell className="text-center">{row.value_movimentation}</TableCell>
@@ -94,4 +106,6 @@ export default function MovimentationTable({ data: initialData, typeOfMovimentat
       </TableBody>
     </Table>
   );
+
+
 }
